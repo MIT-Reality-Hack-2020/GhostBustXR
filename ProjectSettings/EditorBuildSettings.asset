@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Scene1Chris_ARFoundation.unity
-    guid: eb42c986975a1ee4e8af8b48a6c4898b
+    path: Assets/Scenes/Scene2Jason_HoloLens.unity
+    guid: 3e1e35c1791b63743b3243d15ab3b8c9
   m_configObjects: {}
