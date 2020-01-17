@@ -60,6 +60,6 @@ sysinfo.txt
 crashlytics-build.properties
 
 # API Key files
-Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
+/Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
 
-Assets/AzureSpatialAnchors.SDK/Resources/SpatialAnchorConfig.asset
+/Assets/AzureSpatialAnchors.SDK/Resources/SpatialAnchorConfig.asset
