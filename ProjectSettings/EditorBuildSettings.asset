@@ -6,8 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Scene2Jason.unity
-    guid: f8cda80091e003049819514fc9fc7b7b
     path: Assets/Scenes/Scene1Chris_ARFoundation.unity
     guid: eb42c986975a1ee4e8af8b48a6c4898b
   m_configObjects: {}
