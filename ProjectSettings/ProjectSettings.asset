@@ -830,9 +830,9 @@ PlayerSettings:
   metroPackageVersion: 1.0.0.0
   metroCertificatePath: Assets/WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: data experts gmbh
-  metroCertificateIssuer: data experts gmbh
-  metroCertificateNotAfter: 808ff2799ad4d601
+  metroCertificateSubject: MITRealityHack
+  metroCertificateIssuer: MITRealityHack
+  metroCertificateNotAfter: 004ca08a78ecd601
   metroApplicationDescription: Project Ghost
   wsaImages: {}
   metroTileShortName: HelloAR U3D
