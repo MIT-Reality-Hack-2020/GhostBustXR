@@ -69,7 +69,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PositionLerpSpeed: 0.7
   RotationLerpSpeed: 0.7
-  RootObjName: 
+  RootObjName: Root
 --- !u!1001 &5682668067345656445
 PrefabInstance:
   m_ObjectHideFlags: 0
