@@ -139,8 +139,8 @@ PlayerSettings:
       minimumSupportedHeadTracking: 0
       maximumSupportedHeadTracking: 1
     hololens:
-      depthFormat: 1
-      depthBufferSharingEnabled: 0
+      depthFormat: 0
+      depthBufferSharingEnabled: 1
     lumin:
       depthFormat: 0
       frameTiming: 2
@@ -882,7 +882,7 @@ PlayerSettings:
       WebCam: True
   metroTargetDeviceFamilies:
     Desktop: False
-    Holographic: False
+    Holographic: True
     IoT: False
     IoTHeadless: False
     Mobile: False
