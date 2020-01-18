@@ -3,7 +3,8 @@
     "references": [
         "Microsoft.MixedReality.Toolkit",
         "Microsoft.MixedReality.Toolkit.Async",
-        "Unity.XR.ARFoundation"
+        "Unity.XR.ARFoundation",
+        "UnityEngine.SpatialTracking"
     ],
     "optionalUnityReferences": [],
     "includePlatforms": [

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.XR.ARFoundation;
 
 public class ArTouchHandler : MonoBehaviour
@@ -9,6 +10,7 @@ public class ArTouchHandler : MonoBehaviour
     public Transform ObjToPlace;
     private Camera _camera;
     public ARRaycastManager RayManager;
+    public UnityEvent ObjectPlaced;
 
     // Start is called before the first frame update
     void Start()
@@ -28,6 +30,7 @@ public class ArTouchHandler : MonoBehaviour
                 {
                     ObjToPlace.position = hitResults[0].pose.position;
                     ObjToPlace.gameObject.SetActive(true);
+                    ObjectPlaced.Invoke();
                 }
                 return;
             }
