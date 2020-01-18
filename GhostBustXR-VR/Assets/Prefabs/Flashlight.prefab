@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 114000012529584996}
   - component: {fileID: 114000010685951938}
   m_Layer: 0
-  m_Name: JoeJeffController 1
+  m_Name: Flashlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33,8 +33,8 @@ Transform:
   m_LocalPosition: {x: 0.107, y: 1.075, z: -0.022}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 8330642798190264592}
   - {fileID: 6598295797053644899}
+  - {fileID: 8330642798190264592}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -30.594002, y: 90.00001, z: 0}
@@ -235,8 +235,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3934579677922969366}
   m_LocalRotation: {x: -1.2037061e-35, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0019999992, y: -0.0019999826, z: 0.13100001}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 4.2282553}
+  m_LocalPosition: {x: -0.002, y: 0.008, z: 0.053}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.3107592}
   m_Children: []
   m_Father: {fileID: 6598295797053644899}
   m_RootOrder: 0
@@ -329,13 +329,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8170090263784952139}
-  m_LocalRotation: {x: -0, y: 5.32907e-15, z: 2.3092636e-14, w: 1}
-  m_LocalPosition: {x: 0.0029999984, y: -0.013000044, z: 0.0049999794}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: 1.598721e-14, z: 2.575717e-14, w: 1}
+  m_LocalPosition: {x: 0.0029999968, y: -0.010799995, z: -0.037}
+  m_LocalScale: {x: 0.46437, y: 0.3629301, z: 1}
   m_Children:
   - {fileID: 4683076904966716744}
   m_Father: {fileID: 4000010793482278}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!108 &911112968455219580
 Light:
@@ -417,12 +417,12 @@ PrefabInstance:
     - target: {fileID: 7672775918438495172, guid: 57b9683746d564940aa49a3ecc9c728c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0113
+      value: -0.011
       objectReference: {fileID: 0}
     - target: {fileID: 7672775918438495172, guid: 57b9683746d564940aa49a3ecc9c728c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.0679
+      value: -0.088
       objectReference: {fileID: 0}
     - target: {fileID: 7672775918438495172, guid: 57b9683746d564940aa49a3ecc9c728c,
         type: 3}
@@ -447,7 +447,7 @@ PrefabInstance:
     - target: {fileID: 7672775918438495172, guid: 57b9683746d564940aa49a3ecc9c728c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7672775918438495172, guid: 57b9683746d564940aa49a3ecc9c728c,
         type: 3}
@@ -472,7 +472,7 @@ PrefabInstance:
     - target: {fileID: 7672775918438495172, guid: 57b9683746d564940aa49a3ecc9c728c,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.6822165
+      value: 2.3692338
       objectReference: {fileID: 0}
     - target: {fileID: 7672775918438495172, guid: 57b9683746d564940aa49a3ecc9c728c,
         type: 3}
