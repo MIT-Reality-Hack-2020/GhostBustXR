@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using Microsoft.MixedReality.Toolkit.Utilities;
 using Photon.Pun;
 using Photon.Realtime;
 using UnityEngine;
@@ -41,7 +40,7 @@ public class PhotonInit : MonoBehaviourPunCallbacks
 
         var halo = PhotonNetwork.Instantiate(PlayPrefab.name, Vector3.zero, Quaternion.identity);
         //var halo = PhotonNetwork.Instantiate(this.haloPrefab.name, CameraCache.Main.transform.position, CameraCache.Main.transform.rotation);
-        halo.transform.SetParent(CameraCache.Main.transform);
+        halo.transform.SetParent(Camera.main.transform);
         halo.transform.localPosition = Vector3.zero;
         halo.transform.localRotation = Quaternion.identity;
     }
