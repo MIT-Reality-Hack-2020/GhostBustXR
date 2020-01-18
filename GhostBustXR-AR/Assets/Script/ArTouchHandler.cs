@@ -30,6 +30,7 @@ public class ArTouchHandler : MonoBehaviour
                 {
                     ObjToPlace.position = hitResults[0].pose.position;
                     ObjToPlace.gameObject.SetActive(true);
+                    ObjectPlaced.Invoke();
                 }
                 return;
             }
