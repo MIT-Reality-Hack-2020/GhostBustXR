@@ -13,9 +13,15 @@ using UnityEngine.Events;
 
 public class AnchorInit : MonoBehaviour
 {
+    [Serializable]
+    public class ProgressEvent : UnityEvent<float> { }
+
     public SpatialAnchorManager ASAManager;
     public static readonly string ANCHOR_ID_PROPERTY = "THIS_IS_ANCHORRR";
     private CloudSpatialAnchorWatcher _watcher;
+    public ProgressEvent AnchorProgressUpdated;
+    public UnityEvent AnchorSaved;
+    private bool _anchorReceived = false;
 
     // Start is called before the first frame update
     void Start()
@@ -55,6 +61,7 @@ public class AnchorInit : MonoBehaviour
             Debug.LogError("Anchor not Found");
         }
     }
+
     public void StartInitialize()
     {
         UnityDispatcher.InvokeOnAppThread(async () =>
@@ -80,6 +87,14 @@ public class AnchorInit : MonoBehaviour
         }
     }
 
+    public void CreateAnchor()
+    {
+        UnityDispatcher.InvokeOnAppThread(async () =>
+        {
+            await SaveCurrentObjectAnchorToCloudAsync();
+        });
+    }
+
     protected virtual async Task SaveCurrentObjectAnchorToCloudAsync()
     {
         var cna = gameObject.GetComponent<CloudNativeAnchor>();
@@ -97,6 +112,10 @@ public class AnchorInit : MonoBehaviour
         {
             await Task.Delay(330);
             var createProgress = ASAManager.SessionStatus.RecommendedForCreateProgress;
+            UnityDispatcher.InvokeOnAppThread(() =>
+            {
+                AnchorProgressUpdated.Invoke(createProgress);
+            });
         }
 
         try
@@ -110,6 +129,7 @@ public class AnchorInit : MonoBehaviour
                         { ANCHOR_ID_PROPERTY, cloudAnchor.Identifier }
                     };
                 PhotonNetwork.CurrentRoom.SetCustomProperties(props);
+                AnchorSaved.Invoke();
             }
             else
             {
@@ -135,7 +155,7 @@ public class AnchorInit : MonoBehaviour
             {
                 Identifiers = new[] { (string)keyValue }
             };
-
+            _anchorReceived = true;
             // If we didn't create the room then we want to try and get the anchor
             // from the cloud and apply it.
             _watcher = ASAManager.Session.CreateWatcher(anchorLocateCriteria);
