@@ -20,47 +20,34 @@ https://unity3d.com/get-unity/download/archive
 Download Visual Studio 2019 
 https://visualstudio.microsoft.com/downloads/
 
+### XR Device Headsets Supports
+
+HoloLens version 1
+HoloLens version 2
+Oculus Quest
+HTC Vive
+Valve Index
+Windows Mixed Reality Devices
+Android
+iOS
+
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+Please download the above pre-requisites and respective XR device SDKs for your specific needs.
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+Report any issues or bugs for your test results within this project repo.
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 ### And coding style tests
 
-Explain what these tests test and why
-
-```
-Give an example
-```
+Please see this guide for coding best practices:
+https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Depending on your XR device endpoint you will need to follow the deployment guidelines set by the manufacture.
 
 ## Built With
 
