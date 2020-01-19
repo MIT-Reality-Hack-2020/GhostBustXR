@@ -73,7 +73,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PositionLerpSpeed: 0.7
   RotationLerpSpeed: 0.7
+  ScaleMovement: {x: 17.13, y: 17.13, z: 17.13}
   RootObjName: Root
+  RootObj: {fileID: 0}
+  TransformToMove: {fileID: 0}
 --- !u!114 &3471218941444596147
 MonoBehaviour:
   m_ObjectHideFlags: 0

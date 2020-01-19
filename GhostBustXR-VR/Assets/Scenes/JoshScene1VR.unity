@@ -7204,9 +7204,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f067600137c9f5438ce4c7ab7be1938, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayPrefabAR: {fileID: 3471218941444596151, guid: 47c85a549ee4d33499f90b8ae0fd3e43,
+  PlayPrefab: {fileID: 8227059716839395176, guid: ef1f28e6d0b198246ac8cec3912989c4,
     type: 3}
-  PlayPrefabVR: {fileID: 0}
 --- !u!4 &288013247
 Transform:
   m_ObjectHideFlags: 0
@@ -43679,6 +43678,16 @@ PrefabInstance:
     - target: {fileID: 1000012738080298, guid: efcf441d351271c4b9cb6541e0ea8d4a, type: 3}
       propertyPath: m_Name
       value: Flashlight
+      objectReference: {fileID: 0}
+    - target: {fileID: 5028051985825985283, guid: efcf441d351271c4b9cb6541e0ea8d4a,
+        type: 3}
+      propertyPath: m_Name
+      value: flashlightObj
+      objectReference: {fileID: 0}
+    - target: {fileID: 3244768620809548248, guid: efcf441d351271c4b9cb6541e0ea8d4a,
+        type: 3}
+      propertyPath: m_Name
+      value: flashlight_1
       objectReference: {fileID: 0}
     - target: {fileID: 911112968455219580, guid: efcf441d351271c4b9cb6541e0ea8d4a,
         type: 3}
