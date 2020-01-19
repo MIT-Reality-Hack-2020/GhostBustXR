@@ -814,9 +814,9 @@ PlayerSettings:
   metroPackageVersion: 1.0.0.0
   metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: Microsoft
-  metroCertificateIssuer: Microsoft
-  metroCertificateNotAfter: 005f022bdc82d601
+  metroCertificateSubject: MitRealityHack
+  metroCertificateIssuer: MitRealityHack
+  metroCertificateNotAfter: 80bad6fd6bedd601
   metroApplicationDescription: Template_3D
   wsaImages: {}
   metroTileShortName: HelloAR U3D
