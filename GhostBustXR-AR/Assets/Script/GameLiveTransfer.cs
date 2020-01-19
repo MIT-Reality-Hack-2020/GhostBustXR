@@ -17,11 +17,7 @@ public class GameLiveTransfer : MonoBehaviour, IPunObservable
     {
         if (stream.IsWriting)
         {
-            if (_lastLives != _state._lives)
-            {
-                _lastLives = _state._lives;
-                stream.SendNext(_lastLives);
-            }
+            //fine this way?
         }
         else if (stream.IsReading)
         {
