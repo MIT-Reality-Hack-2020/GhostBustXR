@@ -14,8 +14,11 @@ Either directly clone, download, or fork your own copy of this repository. Be su
 
 You will need the following environments for development:
 
-Download Unity 2019.1.14f1: https://unity3d.com/get-unity/download/archive
-Download Visual Studio 2019: https://visualstudio.microsoft.com/downloads/
+Download Unity 2019.1.14f1 
+https://unity3d.com/get-unity/download/archive
+
+Download Visual Studio 2019 
+https://visualstudio.microsoft.com/downloads/
 
 ### Installing
 
