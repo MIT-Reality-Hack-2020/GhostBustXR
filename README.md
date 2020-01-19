@@ -74,7 +74,9 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). Joshua Widdicombe## Authors
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+
+## Authors
 
 * **Chris Papenfuss** - *Initial work* - [cefoot](https://github.com/cefoot)
 * **Jason Evans** - *Initial work* - [jasevans](https://github.com/jaseva)
