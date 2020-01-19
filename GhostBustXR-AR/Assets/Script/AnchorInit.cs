@@ -23,6 +23,7 @@ public class AnchorInit : MonoBehaviour
     public UnityEvent AnchorSaved;
     public UnityEvent AnchorFound;
     public UnityEvent AnchorLoading;
+    public UnityEvent SessionReady;
     private bool _anchorReceived = false;
     private string _myAnchorID = String.Empty;
 
@@ -83,6 +84,7 @@ public class AnchorInit : MonoBehaviour
             Debug.Log("Starting Session");
             await ASAManager.StartSessionAsync();
             Debug.Log("Session Ready");
+            SessionReady.Invoke();
         }
         catch (Exception e)
         {
@@ -116,6 +118,7 @@ public class AnchorInit : MonoBehaviour
         {
             await Task.Delay(330);
             var createProgress = ASAManager.SessionStatus.RecommendedForCreateProgress;
+            if (_anchorReceived) return;
             UnityDispatcher.InvokeOnAppThread(() =>
             {
                 AnchorProgressUpdated.Invoke(createProgress);
@@ -126,7 +129,7 @@ public class AnchorInit : MonoBehaviour
         {
             await ASAManager.CreateAnchorAsync(cloudAnchor);
             var success = cloudAnchor != null;
-            if (success)
+            if (success && !_anchorReceived)
             {
                 _myAnchorID = cloudAnchor.Identifier;
                 var props = new Hashtable()
