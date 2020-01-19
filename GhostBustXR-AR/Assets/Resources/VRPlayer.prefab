@@ -59,7 +59,7 @@ RectTransform:
   m_GameObject: {fileID: 2374851224352550176}
   m_LocalRotation: {x: -0, y: 1.598721e-14, z: 2.575717e-14, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.05}
-  m_LocalScale: {x: 0.46437, y: 0.3629301, z: 1}
+  m_LocalScale: {x: 0.60368097, y: 0.4718091, z: 1.3}
   m_Children:
   - {fileID: 1254664778291904803}
   m_Father: {fileID: 5880261478431949901}
@@ -511,7 +511,7 @@ GameObject:
   - component: {fileID: 7809457306865061886}
   - component: {fileID: 2469442232122881708}
   - component: {fileID: 976240403549608736}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: lightCone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -609,7 +609,7 @@ MeshCollider:
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: 43c6bdf072a75974186a41645b0aaca5, type: 3}
+  m_Mesh: {fileID: -2124705421725058983, guid: 3248bc082056b7a43ba93081e5c14d36, type: 3}
 --- !u!1 &8976637828876668339
 GameObject:
   m_ObjectHideFlags: 0

@@ -19,6 +19,7 @@ public class GhostARPhoneController : MonoBehaviour
 
     public void FixedUpdate()
     {
+        if (joystick.Horizontal == 0f && joystick.Vertical == 0f) return;
         var forward = Vector3.Scale(_camTransform.forward, _plane).normalized;
         var right = Vector3.Scale(_camTransform.right, _plane).normalized;
         var direction = forward * joystick.Vertical + right * joystick.Horizontal;

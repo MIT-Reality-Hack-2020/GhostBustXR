@@ -11,13 +11,26 @@ public class StunCheck : MonoBehaviour, IPunObservable
     public float PushbackDistance = 1f;
     public UnityEvent Stunned;
     public UnityEvent Released;
+    public int StunnerLayer = 8;
 
-    private void OnTriggerStay(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
-        _isStunned = true;
+        Debug.Log("OnTriggerEnter");
+        if (other.gameObject.layer != StunnerLayer) return;
+        Debug.Log("OnTriggerEnter_After");
+        //    var old = _isStunned;
+        //  _isStunned = true;
+        //if (!old && _isStunned)
+        {
+            Stun(-transform.forward, PushbackDistance, StunCooldown);
+        }
+    }
+
+    public void Stun(Vector3 stunDirection, float pushbackDistance, float stunCooldown)
+    {
         Stunned.Invoke();
-        transform.localPosition = transform.localPosition + Vector3.Scale(other.transform.forward, new Vector3(1f, 0f, 1f)).normalized * PushbackDistance;
-        Invoke("Release", StunCooldown);
+        transform.localPosition = transform.localPosition + Vector3.Scale(stunDirection, new Vector3(1f, 0f, 1f)).normalized * pushbackDistance;
+        Invoke("Release", stunCooldown);
     }
 
     public void Release()
