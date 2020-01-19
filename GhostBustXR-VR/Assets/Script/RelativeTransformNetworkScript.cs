@@ -20,7 +20,7 @@ public class RelativeTransformNetworkScript : MonoBehaviour, IPunObservable
     Vector3 RelativePosition
     {
         get => RelativeGameObject.transform.InverseTransformPoint(_myTransform.position);
-        set => _myTransform.position = Vector3.Lerp(_myTransform.position, RelativeGameObject.transform.TransformPoint(value), PositionLerpSpeed);
+        set => _myTransform.position = Vector3.Lerp(_myTransform.position, RelativeGameObject.transform.TransformPoint(value * 17.12972f), PositionLerpSpeed);
     }
 
     Quaternion RelativeRotation
