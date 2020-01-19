@@ -34,7 +34,16 @@ public class StunCheck : MonoBehaviour, IPunObservable
         }
         else
         {
+            var before = _isStunned;
             _isStunned = (bool)stream.ReceiveNext();
+            if (_isStunned && !before)
+            {
+                Stunned.Invoke();
+            }
+            else if (!_isStunned && before)
+            {
+                Released.Invoke();
+            }
         }
     }
 }

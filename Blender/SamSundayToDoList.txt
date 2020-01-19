@@ -1,7 +1,7 @@
 Animations
 Idle / Loading - Created
 Attack
-Stun from light 
+Push back from light 
 
 Animation Export Cuts:
 
@@ -16,6 +16,7 @@ List for Sunday:
 2) Implement all sounds (AR & VR)
 	-Josh implemented all his SFX sounds
 	-Sam/Frank found all the needed sounds
+	-Look at Frank's sounds and list what to implement and 	where
 3) Create any helpful UI for AR & VR
 	- Win State Graphic
 	- Lose State Graphic
@@ -25,5 +26,9 @@ List for Sunday:
 6) Double check sizing (AR & VR)
 7) Check that Frank had all the updated licenses and attributions
 8) Check that Frank created and uploaded the video
+9) Shove table to the side and set up Room Scale VR
+10) Record the AR, VR, & MR gameplay from the same game for Frank.
+
+"It's mobile accesibilty."
 
 
