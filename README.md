@@ -89,7 +89,7 @@ See also the list of [contributors](https://github.com/cefoot/ProjectGhost/graph
 ## License
 
 1. GhostBustXR is licensed under the Apache 2.0 License 
-See the [LICENSE.md](LICENSE.md) file for details
+See the [LICENSE.](LICENSE) file for details
 
 2. Photon PUN 
 Multiplayer Networking 
