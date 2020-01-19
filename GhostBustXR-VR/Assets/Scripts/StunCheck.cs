@@ -13,7 +13,18 @@ public class StunCheck : MonoBehaviour, IPunObservable
     public UnityEvent Released;
     public int StunnerLayer = 8;
 
-    private void OnCollisionStay(Collision other)
+    //private void OnCollision(Collision other)
+    //{
+    //    if (other.gameObject.layer != StunnerLayer) return;
+    //    var old = _isStunned;
+    //    _isStunned = true;
+    //    if (!old && _isStunned)
+    //    {
+    //        Stun(other.transform.forward, PushbackDistance, StunCooldown);
+    //    }
+    //}
+
+    private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.layer != StunnerLayer) return;
         var old = _isStunned;
@@ -22,17 +33,6 @@ public class StunCheck : MonoBehaviour, IPunObservable
         {
             Stun(other.transform.forward, PushbackDistance, StunCooldown);
         }
-    }
-
-    private void OnTriggerStay(Collider other)
-    {
-        //if (other.gameObject.layer != StunnerLayer) return;
-        //var old = _isStunned;
-        //_isStunned = true;
-        //if (!old && _isStunned) 
-        //{
-        //    Stun(other.transform.forward, PushbackDistance, StunCooldown);
-        //}
     }
 
     public void Stun(Vector3 stunDirection, float pushbackDistance, float stunCooldown)
