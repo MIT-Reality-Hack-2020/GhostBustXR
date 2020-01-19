@@ -6,7 +6,7 @@ using UnityEngine.Events;
 
 public class StunCheck : MonoBehaviour, IPunObservable
 {
-    private bool _isStunned = true;
+    private bool _isStunned = false;
     public float StunCooldown = 2F;
     public float PushbackDistance = 1f;
     public UnityEvent Stunned;
