@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 3471218941444596144}
   - component: {fileID: 3471218941444596145}
   - component: {fileID: 3471218941444596147}
+  - component: {fileID: 3059492425409185427}
+  - component: {fileID: 600538801299454407}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -56,6 +58,7 @@ MonoBehaviour:
   OwnershipTransfer: 0
   ObservedComponents:
   - {fileID: 3471218941444596145}
+  - {fileID: 3059492425409185427}
   viewIdField: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
@@ -94,6 +97,43 @@ MonoBehaviour:
   - {fileID: 5995041894991190744}
   - {fileID: 5516812781664427046}
   - {fileID: 544093867732088573}
+--- !u!114 &3059492425409185427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3471218941444596151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c02cdae71bdb5b14282d98317bc2948f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StunCooldown: 2
+  PushbackDistance: 1
+  Stunned:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  Released:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!65 &600538801299454407
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3471218941444596151}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.41770765, y: 0.44779706, z: 0.38020086}
+  m_Center: {x: -0.0052936226, y: 1.2378587, z: 0.0035619736}
 --- !u!1001 &3471218940802352275
 PrefabInstance:
   m_ObjectHideFlags: 0
