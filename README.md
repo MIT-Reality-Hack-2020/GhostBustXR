@@ -9,6 +9,9 @@ GhostBustXR is an asymmetrical multiplayer social XR game that creates friendly 
 This project was part of the 2020 MIT Reality Hack XR:
 https://www.mitrealityhack.com/
 
+Please visit our GhostBustXR DevPost page:
+https://devpost.com/software/ghosbustxr
+
 ## Getting Started
 
 Either directly clone, download, or fork your own copy of this repository. Be sure to reach out to the GhostBustXR development team and let us know how you intend on using this software.
