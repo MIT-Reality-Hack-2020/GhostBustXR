@@ -6,6 +6,9 @@ GhostBustXR is an asymmetrical multiplayer social XR game that creates friendly 
 - AR players are ghost avatars
 - Spectator avatars
 
+This project was part of the 2020 MIT Reality Hack XR:
+https://www.mitrealityhack.com/
+
 ## Getting Started
 
 Either directly clone, download, or fork your own copy of this repository. Be sure to reach out to the GhostBustXR development team and let us know how you intend on using this software.
@@ -22,14 +25,7 @@ https://visualstudio.microsoft.com/downloads/
 
 ### XR Device Headsets Supports
 
-HoloLens version 1
-HoloLens version 2
-Oculus Quest
-HTC Vive
-Valve Index
-Windows Mixed Reality Devices
-Android
-iOS
+HoloLens version 1, HoloLens version 2, Oculus Quest, HTC Vive, Valve Index, Windows Mixed Reality Devices, Android, iOS
 
 ### Installing
 
@@ -72,6 +68,8 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 * **Joshua Widdicombe** - *Initial work* - [joshbrookline](https://github.com/JoshBrookline)
 
 See also the list of [contributors](https://github.com/cefoot/ProjectGhost/graphs/contributors) who participated in this project.
+
+See also the GhostBustXR DevPot
 
 ## License
 
