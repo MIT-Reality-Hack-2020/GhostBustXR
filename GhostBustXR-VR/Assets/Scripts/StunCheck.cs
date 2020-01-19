@@ -27,9 +27,9 @@ public class StunCheck : MonoBehaviour, IPunObservable
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.layer != StunnerLayer) return;
-        var old = _isStunned;
-        _isStunned = true;
-        if (!old && _isStunned)
+    //    var old = _isStunned;
+      //  _isStunned = true;
+        //if (!old && _isStunned)
         {
             Stun(other.transform.forward, PushbackDistance, StunCooldown);
         }
