@@ -36,6 +36,11 @@ public class StunCheck : MonoBehaviour, IPunObservable
         {
             var before = _isStunned;
             _isStunned = (bool)stream.ReceiveNext();
+
+
+
+            //events only for local clients
+            if (!GetComponent<PhotonView>().IsMine) return;
             if (_isStunned && !before)
             {
                 Stunned.Invoke();
