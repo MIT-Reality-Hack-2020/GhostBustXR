@@ -369,7 +369,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8170090263784952139}
   m_LocalRotation: {x: -0, y: 1.598721e-14, z: 2.575717e-14, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.037}
+  m_LocalPosition: {x: 0, y: 0, z: -0.05}
   m_LocalScale: {x: 0.46437, y: 0.3629301, z: 1}
   m_Children:
   - {fileID: 4683076904966716744}
@@ -378,7 +378,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0029999968, y: -0.010799995}
+  m_AnchoredPosition: {x: 0.003, y: -0.011}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!108 &911112968455219580
@@ -391,14 +391,14 @@ Light:
   m_Enabled: 1
   serializedVersion: 9
   m_Type: 0
-  m_Color: {r: 0.6764706, g: 0.7724138, b: 1, a: 1}
-  m_Intensity: 1.29
-  m_Range: 3
+  m_Color: {r: 1, g: 0.99137926, b: 0.6745098, a: 1}
+  m_Intensity: 0.48
+  m_Range: 3.49
   m_SpotAngle: 37
   m_InnerSpotAngle: 33
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -434,7 +434,7 @@ Light:
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
+  m_BounceIntensity: 0.49
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
@@ -516,7 +516,7 @@ PrefabInstance:
     - target: {fileID: 7672775918438495172, guid: 57b9683746d564940aa49a3ecc9c728c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7672775918438495172, guid: 57b9683746d564940aa49a3ecc9c728c,
         type: 3}
@@ -526,7 +526,7 @@ PrefabInstance:
     - target: {fileID: 7672775918438495172, guid: 57b9683746d564940aa49a3ecc9c728c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.033
+      value: -0.043
       objectReference: {fileID: 0}
     - target: {fileID: 7672775918438495172, guid: 57b9683746d564940aa49a3ecc9c728c,
         type: 3}
@@ -571,17 +571,17 @@ PrefabInstance:
     - target: {fileID: 7672775918438495172, guid: 57b9683746d564940aa49a3ecc9c728c,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.9721
+      value: 0.017396621
       objectReference: {fileID: 0}
     - target: {fileID: 7672775918438495172, guid: 57b9683746d564940aa49a3ecc9c728c,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.422
+      value: 0.012543988
       objectReference: {fileID: 0}
     - target: {fileID: 7672775918438495172, guid: 57b9683746d564940aa49a3ecc9c728c,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.2027435
+      value: 0.019431213
       objectReference: {fileID: 0}
     - target: {fileID: 4907976776509453579, guid: 57b9683746d564940aa49a3ecc9c728c,
         type: 3}
