@@ -5,10 +5,15 @@ Push back from light
 
 Animation Export Cuts:
 
-10-39
+1-39
 Idle
 
+40-64
+Attack 
 
+Stun/Getting Pushed Back from Light
+
+MAKE ANIMATION CLIPS 
 
 List for Sunday:
 
@@ -21,13 +26,15 @@ List for Sunday:
 	- Win State Graphic
 	- Lose State Graphic
 	- Replay Button (Takes to the Start)
+	- Connection Lost Graphic
 4) Make sure Josh implemented VR intro graphic
-5) Double check lighting (AR & VR)
-6) Double check sizing (AR & VR)
-7) Check that Frank had all the updated licenses and attributions
-8) Check that Frank created and uploaded the video
-9) Shove table to the side and set up Room Scale VR
-10) Record the AR, VR, & MR gameplay from the same game for Frank.
+5) Have Chris move the AR Button to the middle
+6) Double check lighting (AR & VR)
+7) Double check sizing (AR & VR)
+8) Check that Frank had all the updated licenses and attributions
+9) Check that Frank created and uploaded the video
+10) Shove table to the side and set up Room Scale VR
+11) Record the AR, VR, & MR gameplay from the same game for Frank. (GoPro, AR, VR. MR)
 
 "It's mobile accesibilty."
 
