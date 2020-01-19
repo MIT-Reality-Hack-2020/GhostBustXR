@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Photon.Pun;
 using UnityEngine;
 
-public class RelativeTransformNetworkScript : MonoBehaviour, IPunObservable
+public class RelativeTransformNetworkScriptOther : MonoBehaviour, IPunObservable
 {
 
     public float PositionLerpSpeed = 0.7F;
