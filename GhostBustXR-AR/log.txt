@@ -332,7 +332,6 @@
 01-18 13:32:21.980  1449  1615 W ActivityManager: setHasOverlayUi called on unknown pid: 31063
 01-18 13:32:22.210  1449  1634 I ActivityManager: Start proc 3836:com.android.bluetooth/1002 for service {com.android.bluetooth/com.android.bluetooth.btservice.AdapterService}
 01-18 13:32:22.211  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.android.bluetooth, app.info = ApplicationInfo{8aa9538 com.android.bluetooth}, app.hostingType = service, getHostingName() = ComponentInfo{com.android.bluetooth/com.android.bluetooth.btservice.AdapterService}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{b68c911 3836:com.android.bluetooth/1002}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { act=android.bluetooth.IBluetooth cmp=com.android.bluetooth/.btservice.AdapterService }, CALLER_PACKAGE=android}]
---------- beginning of main
 01-18 13:32:32.955  1449  1634 I ActivityManager: Start proc 3953:com.android.vending/u0a76 for broadcast {com.android.vending/com.google.android.finsky.verifier.impl.PackageVerificationReceiver}
 01-18 13:32:32.955  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.android.vending, app.info = ApplicationInfo{9d4bed2 com.android.vending}, app.hostingType = broadcast, getHostingName() = ComponentInfo{com.android.vending/com.google.android.finsky.verifier.impl.PackageVerificationReceiver}, getIntentFlag() = 268435477, getIsPackageRunning() = false, app = ProcessRecord{a256ba3 3953:com.android.vending/u0a76}, getExtraData() = Bundle[{BROADCAST_INTENT=Intent { act=android.intent.action.PACKAGE_NEEDS_VERIFICATION dat=file:///data/app/vmdl56200742.tmp typ=application/vnd.android.package-archive flg=0x10000011 cmp=com.android.vending/com.google.android.finsky.verifier.impl.PackageVerificationReceiver (has extras) }, CALLER_PACKAGE=android}]
 01-18 13:32:35.397  1449  1633 I ActivityManager: Force stopping com.mit.reality.hack appid=10635 user=-1: installPackageLI
@@ -390,10 +389,6 @@
 01-18 13:32:55.958  1449  1615 D ActivityManager: Package [com.mit.reality.hack] have process
 01-18 13:32:55.974  1449  1634 I ActivityManager: Start proc 4206:com.mit.reality.hack/u0a635 for activity {com.mit.reality.hack/com.unity3d.player.UnityPlayerActivity}
 01-18 13:32:55.975  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.mit.reality.hack, app.info = ApplicationInfo{5a94b81 com.mit.reality.hack}, app.hostingType = activity, getHostingName() = ComponentInfo{com.mit.reality.hack/com.unity3d.player.UnityPlayerActivity}, getIntentFlag() = 0, getIsPackageRunning() = true, app = ProcessRecord{4dca426 4206:com.mit.reality.hack/u0a635}, getExtraData() = null
-01-18 13:32:56.188  4206  4229 I Unity   : SystemInfo CPU = ARMv7 VFPv3 NEON, Cores = 8, Memory = 2733mb
-01-18 13:32:56.188  4206  4229 I Unity   : SystemInfo ARM big.LITTLE configuration: 4 big (mask: 0xf0), 4 little (mask: 0xf)
-01-18 13:32:56.188  4206  4229 I Unity   : ApplicationInfo com.mit.reality.hack version 1.2.2 build ea2e945f-9221-4bf3-950c-07fbbfc75b27
-01-18 13:32:56.188  4206  4229 I Unity   : Built from '2019.1/staging' branch, Version '2019.1.14f1 (148b5891095a)', Build type 'Release', Scripting Backend 'mono', CPU 'armeabi-v7a', Stripping 'Disabled'
 01-18 13:32:56.368  1449  2785 I ActivityManager: Process com.google.android.apps.turbo:aab (pid 2164) has died: cch+95 CEM 
 01-18 13:32:56.525  1449  8956 I ActivityManager: Process com.google.android.webview:webview_service (pid 1898) has died: cch+95 CEM 
 01-18 13:33:02.223  1449  2440 I ActivityManager: Process com.android.bluetooth (pid 3836) has died: fore SVC 
@@ -464,24 +459,6 @@
 01-18 13:47:48.910  1449  1634 I ActivityManager: Start proc 4900:com.mit.reality.hack/u0a635 for activity {com.mit.reality.hack/com.unity3d.player.UnityPlayerActivity}
 01-18 13:47:48.910  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.mit.reality.hack, app.info = ApplicationInfo{3d3b3f5 com.mit.reality.hack}, app.hostingType = activity, getHostingName() = ComponentInfo{com.mit.reality.hack/com.unity3d.player.UnityPlayerActivity}, getIntentFlag() = 0, getIsPackageRunning() = true, app = ProcessRecord{676758a 4900:com.mit.reality.hack/u0a635}, getExtraData() = null
 01-18 13:47:55.283  1449  6897 I ActivityManager: Process com.android.bluetooth (pid 4695) has died: fore SVC 
-01-18 13:48:01.119  4900  5063 E Unity   : Unable to find Kernel32
-01-18 13:48:04.580  4900  4922 E Unity   : Unable to find _burst_generated
-01-18 13:48:04.607  4900  4922 I Unity   : Creating Session
-01-18 13:48:04.607  4900  4922 I Unity   :  
-01-18 13:48:04.607  4900  4922 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 48)
-01-18 13:48:04.607  4900  4922 I Unity   : 
-01-18 13:48:04.648  4900  4922 E Unity   : Sessions SetUp failed
-01-18 13:48:04.648  4900  4922 E Unity   :  
-01-18 13:48:04.648  4900  4922 E Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 48)
-01-18 13:48:04.648  4900  4922 E Unity   : 
-01-18 13:48:04.731  4900  4922 E Unity   : InvalidOperationException: SpatialAnchorManager is improperly configured.
-01-18 13:48:04.731  4900  4922 E Unity   :   at Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager+<EnsureValidConfiguration>d__18.MoveNext () [0x0009f] in <4a0966093f5041da8d3fe39dd16b76f4>:0 
-01-18 13:48:04.731  4900  4922 E Unity   : --- End of stack trace from previous location where exception was thrown ---
-01-18 13:48:04.731  4900  4922 E Unity   :   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <7d97106330684add86d080ecf65bfe69>:0 
-01-18 13:48:04.731  4900  4922 E Unity   :   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <7d97106330684add86d080ecf65bfe69>:0 
-01-18 13:48:04.731  4900  4922 E Unity   :   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <7d97106330684add86d080ecf65bfe69>:0 
-01-18 13:48:04.731  4900  4922 E Unity   :   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <7d97106330684add86d080ecf65bfe69>:0 
-01-18 13:48:04.731  4900  4922 E Unity   :   at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <7d97106330684add86d080ecf65bfe6
 01-18 13:48:17.896  1449  5810 I ActivityManager: Process com.evenwell.batteryprotect (pid 2037) has died: cch+85 SVC 
 01-18 13:48:17.906  1449  5810 W ActivityManager: Scheduling restart of crashed service com.evenwell.batteryprotect/.DetectBatteryService in 1000ms
 01-18 13:48:17.944  1449  9312 I ActivityManager: Process com.evenwell.autoregistration (pid 31389) has died: cch+85 SVC 
@@ -570,45 +547,12 @@
 01-18 13:53:32.840  1449  1615 D ActivityManager: Package [com.mit.reality.hack] have process
 01-18 13:53:32.846  1449  1634 I ActivityManager: Start proc 5743:com.mit.reality.hack/u0a635 for activity {com.mit.reality.hack/com.unity3d.player.UnityPlayerActivity}
 01-18 13:53:32.849  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.mit.reality.hack, app.info = ApplicationInfo{418d09a com.mit.reality.hack}, app.hostingType = activity, getHostingName() = ComponentInfo{com.mit.reality.hack/com.unity3d.player.UnityPlayerActivity}, getIntentFlag() = 0, getIsPackageRunning() = true, app = ProcessRecord{f3bedcb 5743:com.mit.reality.hack/u0a635}, getExtraData() = null
-01-18 13:53:33.072  5743  5767 I Unity   : SystemInfo CPU = ARMv7 VFPv3 NEON, Cores = 8, Memory = 2733mb
-01-18 13:53:33.072  5743  5767 I Unity   : SystemInfo ARM big.LITTLE configuration: 4 big (mask: 0xf0), 4 little (mask: 0xf)
-01-18 13:53:33.073  5743  5767 I Unity   : ApplicationInfo com.mit.reality.hack version 1.2.2 build 060b1304-a578-4366-83f6-d139a19c4a47
-01-18 13:53:33.073  5743  5767 I Unity   : Built from '2019.1/staging' branch, Version '2019.1.14f1 (148b5891095a)', Build type 'Release', Scripting Backend 'mono', CPU 'armeabi-v7a', Stripping 'Disabled'
-01-18 13:53:33.353  5743  5767 D Unity   :  GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_vertex_half_float GL_OES_framebuffer_object GL_OES_rgb8_rgba8 GL_OES_compressed_ETC1_RGB8_texture GL_AMD_compressed_ATC_texture GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_OES_texture_compression_astc GL_OES_texture_npot GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_read_format_bgra GL_OES_texture_3D GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_QCOM_alpha_test GL_OES_depth24 GL_OES_packed_depth_stencil GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_EXT_sRGB GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_EXT_texture_type_2_10_10_10_REV GL_EXT_texture_sRGB_decode GL_EXT_texture_format_sRGB_override GL_OES_element_index_uint GL_EXT_copy_image GL_EXT_geometry_shader GL_EXT_tessellation_shader GL_OES_texture_stencil8 GL_EXT_shader_io_blocks GL_OES_shader_image_atomic GL_OES_sample_variables GL_EXT_texture_b
-01-18 13:53:33.353  5743  5767 D Unity   : order_clamp GL_EXT_EGL_image_external_wrap_modes GL_EXT_multisampled_render_to_texture GL_EXT_multisampled_render_to_texture2 GL_OES_shader_multisample_interpolation GL_EXT_texture_cube_map_array GL_EXT_draw_buffers_indexed GL_EXT_gpu_shader5 GL_EXT_robustness GL_EXT_texture_buffer GL_EXT_shader_framebuffer_fetch GL_ARM_shader_framebuffer_fetch_depth_stencil GL_OES_texture_storage_multisample_2d_array GL_OES_sample_shading GL_OES_get_program_binary GL_EXT_debug_label GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_QCOM_tiled_rendering GL_ANDROID_extension_pack_es31a GL_EXT_primitive_bounding_box GL_OES_standard_derivatives GL_OES_vertex_array_object GL_EXT_disjoint_timer_query GL_KHR_debug GL_EXT_YUV_target GL_EXT_sRGB_write_control GL_EXT_texture_norm16 GL_EXT_discard_framebuffer GL_OES_surfaceless_context GL_OVR_multiview GL_OVR_multiview2 GL_EXT_texture_sRGB_R8 GL_KHR_no_error GL_EXT_debug_marker GL_OES_EGL_image_external_essl3 GL_OVR_multiview_multisampled_render_to_texture GL_E
-01-18 13:53:33.353  5743  5767 D Unity   : XT_buffer_storage GL_EXT_external_buffer GL_EXT_blit_framebuffer_params GL_EXT_clip_cull_distance GL_EXT_protected_textures GL_EXT_shader_non_constant_global_initializers GL_QCOM_texture_foveated GL_QCOM_shader_framebuffer_fetch_noncoherent GL_QCOM_shader_framebuffer_fetch_rate GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_EGL_image_array GL_NV_shader_noperspective_interpolation GL_KHR_robust_buffer_access_behavior GL_EXT_EGL_image_storage GL_EXT_blend_func_extended GL_EXT_clip_control GL_OES_texture_view GL_EXT_fragment_invocation_density GL_QCOM_YUV_texture_gather
-01-18 13:53:34.108  5743  5805 W Unity   : The referenced script (UnityEngine.XR.WSA.SpatialMappingCollider) on this Behaviour is missing!
-01-18 13:53:34.108  5743  5805 W Unity   :  
-01-18 13:53:34.108  5743  5805 W Unity   : (Filename: ./Runtime/Scripting/ManagedReference/SerializableManagedRef.cpp Line: 197)
-01-18 13:53:34.108  5743  5805 W Unity   : 
-01-18 13:53:34.145  5743  5805 W Unity   : The referenced script on this Behaviour (Game Object 'HoloLensCamera') is missing!
-01-18 13:53:34.145  5743  5805 W Unity   :  
-01-18 13:53:34.145  5743  5805 W Unity   : (Filename: ./Runtime/Mono/ManagedMonoBehaviourRef.cpp Line: 333)
-01-18 13:53:34.145  5743  5805 W Unity   : 
-01-18 13:53:34.145  5743  5805 E Unity   : A scripted object (probably UnityEngine.XR.WSA.SpatialMappingCollider?) has a different serialization layout when loading. (Read 32 bytes but expected 100 bytes)
-01-18 13:53:34.145  5743  5805 E Unity   : Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
-01-18 13:53:34.145  5743  5805 E Unity   :  
-01-18 13:53:34.145  5743  5805 E Unity   : (Filename: ./Runtime/Serialize/SerializedFile.cpp Line: 2012)
-01-18 13:53:34.145  5743  5805 E Unity   : 
-01-18 13:53:36.481  5743  5767 I Unity   : >>Azure Spatial Anchors Demo Script Start
-01-18 13:53:36.481  5743  5767 I Unity   :  
-01-18 13:53:36.481  5743  5767 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 48)
-01-18 13:53:36.481  5743  5767 I Unity   : 
-01-18 13:53:36.498  5743  5767 I Unity   : 3
-01-18 13:53:36.498  5743  5767 I Unity   :  
-01-18 13:53:36.498  5743  5767 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 48)
-01-18 13:53:36.498  5743  5767 I Unity   : 
-01-18 13:53:36.574  5743  5767 E Unity   : SpatialAnchorManager is improperly configured. It has been disabled.
-01-18 13:53:36.574  5743  5767 E Unity   :  
-01-18 13:53:36.574  5743  5767 E Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 48)
-01-18 13:53:36.574  5743  5767 E Unity   : 
 01-18 13:53:38.016  1449  2548 I ActivityManager: Process com.evenwell.AprUploadService (pid 31826) has died: cch+85 CEM 
 01-18 13:53:38.744  1449  2548 I ActivityManager: Process com.google.android.gms:car (pid 3351) has died: cch+75 CEM 
 01-18 13:53:38.852  1449  7759 I ActivityManager: Process com.google.android.projection.gearhead:shared (pid 3238) has died: cch+75 CEM 
 01-18 13:53:38.870  1449  8956 I ActivityManager: Process com.android.settings (pid 3274) has died: cch+65 CEM 
 01-18 13:53:38.876  1449  1615 W ActivityManager: setHasOverlayUi called on unknown pid: 3274
 01-18 13:53:39.206  1449  8956 I ActivityManager: Process com.android.bluetooth (pid 5633) has died: fore SVC 
-01-18 13:53:41.824  2821  3646 W PackageManager: Failure retrieving resources for com.mit.reality.hack
 01-18 13:53:41.951  1449  8956 I ActivityManager: Process com.android.vending:download_service (pid 4160) has died: cch+65 CEM 
 01-18 13:53:43.099  1449  1634 I ActivityManager: Start proc 5943:com.android.bluetooth/1002 for service {com.android.bluetooth/com.android.bluetooth.btservice.AdapterService}
 01-18 13:53:43.099  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.android.bluetooth, app.info = ApplicationInfo{e2cbec9 com.android.bluetooth}, app.hostingType = service, getHostingName() = ComponentInfo{com.android.bluetooth/com.android.bluetooth.btservice.AdapterService}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{3a4a9ce 5943:com.android.bluetooth/1002}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { act=android.bluetooth.IBluetooth cmp=com.android.bluetooth/.btservice.AdapterService }, CALLER_PACKAGE=android}]
@@ -665,55 +609,7 @@
 01-18 13:57:26.313  1449  1615 D ActivityManager: Package [com.mit.reality.hack] have process
 01-18 13:57:26.325  1449  1634 I ActivityManager: Start proc 6206:com.mit.reality.hack/u0a635 for activity {com.mit.reality.hack/com.unity3d.player.UnityPlayerActivity}
 01-18 13:57:26.325  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.mit.reality.hack, app.info = ApplicationInfo{d71dbb6 com.mit.reality.hack}, app.hostingType = activity, getHostingName() = ComponentInfo{com.mit.reality.hack/com.unity3d.player.UnityPlayerActivity}, getIntentFlag() = 0, getIsPackageRunning() = true, app = ProcessRecord{f3030b7 6206:com.mit.reality.hack/u0a635}, getExtraData() = null
-01-18 13:57:26.545  6206  6229 I Unity   : SystemInfo CPU = ARMv7 VFPv3 NEON, Cores = 8, Memory = 2733mb
-01-18 13:57:26.545  6206  6229 I Unity   : SystemInfo ARM big.LITTLE configuration: 4 big (mask: 0xf0), 4 little (mask: 0xf)
-01-18 13:57:26.545  6206  6229 I Unity   : ApplicationInfo com.mit.reality.hack version 1.2.2 build 177c2bcc-4861-4233-b85a-954eadb21018
-01-18 13:57:26.546  6206  6229 I Unity   : Built from '2019.1/staging' branch, Version '2019.1.14f1 (148b5891095a)', Build type 'Release', Scripting Backend 'mono', CPU 'armeabi-v7a', Stripping 'Disabled'
-01-18 13:57:26.794  6206  6229 D Unity   :  GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_vertex_half_float GL_OES_framebuffer_object GL_OES_rgb8_rgba8 GL_OES_compressed_ETC1_RGB8_texture GL_AMD_compressed_ATC_texture GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_OES_texture_compression_astc GL_OES_texture_npot GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_read_format_bgra GL_OES_texture_3D GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_QCOM_alpha_test GL_OES_depth24 GL_OES_packed_depth_stencil GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_EXT_sRGB GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_EXT_texture_type_2_10_10_10_REV GL_EXT_texture_sRGB_decode GL_EXT_texture_format_sRGB_override GL_OES_element_index_uint GL_EXT_copy_image GL_EXT_geometry_shader GL_EXT_tessellation_shader GL_OES_texture_stencil8 GL_EXT_shader_io_blocks GL_OES_shader_image_atomic GL_OES_sample_variables GL_EXT_texture_b
-01-18 13:57:26.794  6206  6229 D Unity   : order_clamp GL_EXT_EGL_image_external_wrap_modes GL_EXT_multisampled_render_to_texture GL_EXT_multisampled_render_to_texture2 GL_OES_shader_multisample_interpolation GL_EXT_texture_cube_map_array GL_EXT_draw_buffers_indexed GL_EXT_gpu_shader5 GL_EXT_robustness GL_EXT_texture_buffer GL_EXT_shader_framebuffer_fetch GL_ARM_shader_framebuffer_fetch_depth_stencil GL_OES_texture_storage_multisample_2d_array GL_OES_sample_shading GL_OES_get_program_binary GL_EXT_debug_label GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_QCOM_tiled_rendering GL_ANDROID_extension_pack_es31a GL_EXT_primitive_bounding_box GL_OES_standard_derivatives GL_OES_vertex_array_object GL_EXT_disjoint_timer_query GL_KHR_debug GL_EXT_YUV_target GL_EXT_sRGB_write_control GL_EXT_texture_norm16 GL_EXT_discard_framebuffer GL_OES_surfaceless_context GL_OVR_multiview GL_OVR_multiview2 GL_EXT_texture_sRGB_R8 GL_KHR_no_error GL_EXT_debug_marker GL_OES_EGL_image_external_essl3 GL_OVR_multiview_multisampled_render_to_texture GL_E
-01-18 13:57:26.794  6206  6229 D Unity   : XT_buffer_storage GL_EXT_external_buffer GL_EXT_blit_framebuffer_params GL_EXT_clip_cull_distance GL_EXT_protected_textures GL_EXT_shader_non_constant_global_initializers GL_QCOM_texture_foveated GL_QCOM_shader_framebuffer_fetch_noncoherent GL_QCOM_shader_framebuffer_fetch_rate GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_EGL_image_array GL_NV_shader_noperspective_interpolation GL_KHR_robust_buffer_access_behavior GL_EXT_EGL_image_storage GL_EXT_blend_func_extended GL_EXT_clip_control GL_OES_texture_view GL_EXT_fragment_invocation_density GL_QCOM_YUV_texture_gather
-01-18 13:57:27.732  6206  6265 W Unity   : The referenced script (Microsoft.MixedReality.Toolkit.WindowsMixedReality.WindowsMixedRealityCameraSettingsProfile) on this Behaviour is missing!
-01-18 13:57:27.732  6206  6265 W Unity   :  
-01-18 13:57:27.732  6206  6265 W Unity   : (Filename: ./Runtime/Scripting/ManagedReference/SerializableManagedRef.cpp Line: 197)
-01-18 13:57:27.732  6206  6265 W Unity   : 
-01-18 13:57:27.751  6206  6265 W Unity   : The referenced script (Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile) on this Behaviour is missing!
-01-18 13:57:27.751  6206  6265 W Unity   :  
-01-18 13:57:27.751  6206  6265 W Unity   : (Filename: ./Runtime/Scripting/ManagedReference/SerializableManagedRef.cpp Line: 197)
-01-18 13:57:27.751  6206  6265 W Unity   : 
-01-18 13:57:27.782  6206  6265 W Unity   : The referenced script on this Behaviour (Game Object '<null>') is missing!
-01-18 13:57:27.782  6206  6265 W Unity   :  
-01-18 13:57:27.782  6206  6265 W Unity   : (Filename: ./Runtime/Mono/ManagedMonoBehaviourRef.cpp Line: 333)
-01-18 13:57:27.782  6206  6265 W Unity   : 
-01-18 13:57:27.782  6206  6265 E Unity   : A scripted object (probably Microsoft.MixedReality.Toolkit.WindowsMixedReality.WindowsMixedRealityCameraSettingsProfile?) has a different serialization layout when loading. (Read 80 bytes but expected 92 bytes)
-01-18 13:57:27.782  6206  6265 E Unity   : Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
-01-18 13:57:27.782  6206  6265 E Unity   :  
-01-18 13:57:27.782  6206  6265 E Unity   : (Filename: ./Runtime/Serialize/SerializedFile.cpp Line: 2012)
-01-18 13:57:27.782  6206  6265 E Unity   : 
-01-18 13:57:27.820  6206  6265 W Unity   : The referenced script on this Behaviour (Game Object '<null>') is missing!
-01-18 13:57:27.820  6206  6265 W Unity   :  
-01-18 13:57:27.820  6206  6265 W Unity   : (Filename: ./Runtime/Mono/ManagedMonoBehaviourRef.cpp Line: 333)
-01-18 13:57:27.820  6206  6265 W Unity   : 
-01-18 13:57:27.820  6206  6265 E Unity   : A scripted object (probably Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile?) has a different serialization layout when loading. (Read 76 bytes but expected 352 bytes)
-01-18 13:57:27.820  6206  6265 E Unity   : Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
-01-18 13:57:27.820  6206  6265 E Unity   :  
-01-18 13:57:27.820  6206  6265 E Unity   : (Filename: ./Runtime/Serialize/SerializedFile.cpp Line: 2012)
-01-18 13:57:27.820  6206  6265 E Unity   : 
-01-18 13:57:32.689  6206  6381 E Unity   : Unable to find Kernel32
 01-18 13:57:32.809  1449  3484 I ActivityManager: Process com.android.bluetooth (pid 6143) has died: fore SVC 
-01-18 13:57:34.479  6206  6229 I Unity   : Creating Session
-01-18 13:57:34.479  6206  6229 I Unity   :  
-01-18 13:57:34.479  6206  6229 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 48)
-01-18 13:57:34.479  6206  6229 I Unity   : 
-01-18 13:57:34.737  6206  6229 I Unity   : Starting Session
-01-18 13:57:34.737  6206  6229 I Unity   :  
-01-18 13:57:34.737  6206  6229 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 48)
-01-18 13:57:34.737  6206  6229 I Unity   : 
-01-18 13:57:34.864  6206  6229 I Unity   : Session Ready
-01-18 13:57:34.864  6206  6229 I Unity   :  
-01-18 13:57:34.864  6206  6229 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 48)
-01-18 13:57:34.864  6206  6229 I Unity   : 
-01-18 13:57:40.648  6206  6229 E Unity   : Unable to find _burst_generated
-01-18 13:57:46.438  2821  3646 W PackageManager: Failure retrieving resources for com.mit.reality.hack
 01-18 13:57:47.056  1449  3484 I ActivityManager: Process com.google.android.apps.turbo (pid 3047) has died: cch+65 CEM 
 01-18 13:57:47.196  1449  3632 I ActivityManager: Process com.android.providers.calendar (pid 4409) has died: cch+65 CEM 
 01-18 13:57:47.739  1449  1634 I ActivityManager: Start proc 6539:com.android.bluetooth/1002 for service {com.android.bluetooth/com.android.bluetooth.btservice.AdapterService}
@@ -722,3 +618,634 @@
 01-18 13:57:47.870  1449  1615 W ActivityManager: setHasOverlayUi called on unknown pid: 6206
 01-18 13:57:49.557  1449  6861 W ActivityManager: Unable to start service Intent { cmp=com.evenwell.faceplusrecognition/.FacePlusService } U=0: not found
 01-18 13:57:54.502  1449  7548 I ActivityManager: Process com.android.bluetooth (pid 6539) has died: fore SVC 
+01-18 14:00:13.119  1449  7548 W ActivityManager: Permission Denial: Accessing service com.google.android.music/.dial.DialMediaRouteProviderService from pid=3835, uid=10061 that is not exported from uid 10133
+01-18 14:00:14.577  1449  1634 I ActivityManager: Start proc 6674:com.android.bluetooth/1002 for service {com.android.bluetooth/com.android.bluetooth.btservice.AdapterService}
+01-18 14:00:14.577  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.android.bluetooth, app.info = ApplicationInfo{46b67d5 com.android.bluetooth}, app.hostingType = service, getHostingName() = ComponentInfo{com.android.bluetooth/com.android.bluetooth.btservice.AdapterService}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{f1c4bea 6674:com.android.bluetooth/1002}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { act=android.bluetooth.IBluetooth cmp=com.android.bluetooth/.btservice.AdapterService }, CALLER_PACKAGE=android}]
+01-18 14:00:19.943  1449  1615 D ActivityManager: Package [com.mit.reality.hack] have process
+01-18 14:00:19.955  1449  1634 I ActivityManager: Start proc 6738:com.mit.reality.hack/u0a635 for activity {com.mit.reality.hack/com.unity3d.player.UnityPlayerActivity}
+01-18 14:00:19.955  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.mit.reality.hack, app.info = ApplicationInfo{d71dbb6 com.mit.reality.hack}, app.hostingType = activity, getHostingName() = ComponentInfo{com.mit.reality.hack/com.unity3d.player.UnityPlayerActivity}, getIntentFlag() = 0, getIsPackageRunning() = true, app = ProcessRecord{374e9b 6738:com.mit.reality.hack/u0a635}, getExtraData() = null
+01-18 14:00:26.337  1449  6861 I ActivityManager: Process com.android.bluetooth (pid 6674) has died: fore SVC 
+01-18 14:00:51.028  1449  3633 I ActivityManager: Process com.google.android.apps.maps (pid 2835) has died: cch+55 CEM 
+01-18 14:01:03.928  1449  1634 I ActivityManager: Start proc 7031:com.android.bluetooth/1002 for service {com.android.bluetooth/com.android.bluetooth.btservice.AdapterService}
+01-18 14:01:03.928  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.android.bluetooth, app.info = ApplicationInfo{c62fa08 com.android.bluetooth}, app.hostingType = service, getHostingName() = ComponentInfo{com.android.bluetooth/com.android.bluetooth.btservice.AdapterService}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{88315a1 7031:com.android.bluetooth/1002}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { act=android.bluetooth.IBluetooth cmp=com.android.bluetooth/.btservice.AdapterService }, CALLER_PACKAGE=android}]
+01-18 14:01:03.987  1449  3593 I ActivityManager: Process com.mit.reality.hack (pid 6738) has died: cch+5 CEM 
+01-18 14:01:04.005  1449  1615 W ActivityManager: setHasOverlayUi called on unknown pid: 6738
+01-18 14:01:05.909  1449  3611 W ActivityManager: Unable to start service Intent { cmp=com.evenwell.faceplusrecognition/.FacePlusService } U=0: not found
+01-18 14:01:10.929  1449  5810 I ActivityManager: Process com.android.bluetooth (pid 7031) has died: fore SVC 
+01-18 14:02:01.264  1449  2548 W ActivityManager: Permission Denial: Accessing service com.google.android.music/.dial.DialMediaRouteProviderService from pid=3835, uid=10061 that is not exported from uid 10133
+01-18 14:02:01.424  1449  1634 I ActivityManager: Start proc 7121:com.google.android.dialer/u0a66 for service {com.google.android.dialer/com.android.voicemail.impl.StatusCheckJobService}
+01-18 14:02:01.424  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.google.android.dialer, app.info = ApplicationInfo{3ee6186 com.google.android.dialer}, app.hostingType = service, getHostingName() = ComponentInfo{com.google.android.apps.nbu.files/com.google.android.apps.nbu.files.junkdetection.JunkDetectionService}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{1da8a47 7121:com.google.android.dialer/u0a66}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { cmp=com.google.android.apps.nbu.files/.junkdetection.JunkDetectionService }, CALLER_PACKAGE=android}]
+01-18 14:02:01.450  1449  1634 I ActivityManager: Start proc 7134:com.google.android.apps.nbu.files/u0a60 for service {com.google.android.apps.nbu.files/com.google.android.apps.nbu.files.junkdetection.JunkDetectionService}
+01-18 14:02:01.450  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.google.android.apps.nbu.files, app.info = ApplicationInfo{c9b839d com.google.android.apps.nbu.files}, app.hostingType = service, getHostingName() = ComponentInfo{com.google.android.apps.nbu.files/com.google.android.apps.nbu.files.junkdetection.JunkDetectionService}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{8bf1012 7134:com.google.android.apps.nbu.files/u0a60}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { cmp=com.google.android.apps.nbu.files/.junkdetection.JunkDetectionService }, CALLER_PACKAGE=android}]
+01-18 14:02:01.693  1449  1634 I ActivityManager: Start proc 7181:com.google.android.apps.turbo:aab/u0a173 for service {com.google.android.apps.turbo/com.google.android.libraries.smartbattery.common.phenotype.UpdatePhenotypeFlagsJob}
+01-18 14:02:01.694  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.google.android.apps.turbo:aab, app.info = ApplicationInfo{8f52bd3 com.google.android.apps.turbo}, app.hostingType = service, getHostingName() = ComponentInfo{com.google.android.apps.turbo/com.google.android.libraries.smartbattery.common.phenotype.UpdatePhenotypeFlagsJob}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{bf02310 7181:com.google.android.apps.turbo:aab/u0a173}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { cmp=com.google.android.apps.turbo/com.google.android.libraries.smartbattery.common.phenotype.UpdatePhenotypeFlagsJob }, CALLER_PACKAGE=android}]
+01-18 14:02:02.583  1449  1634 I ActivityManager: Start proc 7284:com.google.android.apps.turbo:ssb/u0a173 for broadcast {com.google.android.apps.turbo/com.google.android.libraries.smartbattery.brightness.library.PhenotypeUpdatedReceiver}
+01-18 14:02:02.584  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.google.android.apps.turbo:ssb, app.info = ApplicationInfo{49742bf com.google.android.apps.turbo}, app.hostingType = broadcast, getHostingName() = ComponentInfo{com.google.android.apps.turbo/com.google.android.libraries.smartbattery.brightness.library.PhenotypeUpdatedReceiver}, getIntentFlag() = 20, getIsPackageRunning() = false, app = ProcessRecord{977cd8c 7284:com.google.android.apps.turbo:ssb/u0a173}, getExtraData() = Bundle[{BROADCAST_INTENT=Intent { act=com.google.android.libraries.smartbattery.common.phenotype.phenotype_update flg=0x10 pkg=com.google.android.apps.turbo }, CALLER_PACKAGE=com.google.android.apps.turbo}]
+01-18 14:02:04.054  1449  1634 I ActivityManager: Start proc 7329:com.android.providers.calendar/u0a49 for broadcast {com.android.providers.calendar/com.android.providers.calendar.CalendarProviderBroadcastReceiver}
+01-18 14:02:04.054  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.android.providers.calendar, app.info = ApplicationInfo{44b049e com.android.providers.calendar}, app.hostingType = broadcast, getHostingName() = ComponentInfo{com.android.providers.calendar/com.android.providers.calendar.CalendarProviderBroadcastReceiver}, getIntentFlag() = 20, getIsPackageRunning() = false, app = ProcessRecord{8a926a2 7329:com.android.providers.calendar/u0a49}, getExtraData() = Bundle[{BROADCAST_INTENT=Intent { act=com.android.providers.calendar.intent.CalendarProvider2 flg=0x14 cmp=com.android.providers.calendar/.CalendarProviderBroadcastReceiver (has extras) }, CALLER_PACKAGE=com.android.providers.calendar}]
+01-18 14:02:04.572  1449  1634 I ActivityManager: Start proc 7362:com.evenwell.AprUploadService/u0a47 for content provider {com.evenwell.AprUploadService/com.fihtdc.AprUploadService.provider.SettingProvider}
+01-18 14:02:04.577  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.evenwell.AprUploadService, app.info = ApplicationInfo{ad96326 com.evenwell.AprUploadService}, app.hostingType = content provider, getHostingName() = ComponentInfo{com.evenwell.AprUploadService/com.fihtdc.AprUploadService.provider.SettingProvider}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{28fb67 7362:com.evenwell.AprUploadService/u0a47}, getExtraData() = null
+01-18 14:02:08.828  1449  1634 I ActivityManager: Start proc 7401:com.google.android.music:main/u0a133 for service {com.google.android.music/androidx.work.impl.background.systemjob.SystemJobService}
+01-18 14:02:08.828  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.google.android.music:main, app.info = ApplicationInfo{9d5821a com.google.android.music}, app.hostingType = service, getHostingName() = ComponentInfo{com.google.android.music/androidx.work.impl.background.systemjob.SystemJobService}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{7a8814b 7401:com.google.android.music:main/u0a133}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { cmp=com.google.android.music/androidx.work.impl.background.systemjob.SystemJobService }, CALLER_PACKAGE=android}]
+01-18 14:02:12.659  1449  3593 I ActivityManager: Process com.qualcomm.qti.workloadclassifier (pid 3405) has died: cch+85 SVC 
+01-18 14:02:12.660  1449  3593 W ActivityManager: Scheduling restart of crashed service com.qualcomm.qti.workloadclassifier/.WLCService in 1000ms
+01-18 14:02:13.715  1449  1634 I ActivityManager: Start proc 7491:com.qualcomm.qti.workloadclassifier/1000 for service {com.qualcomm.qti.workloadclassifier/com.qualcomm.qti.workloadclassifier.WLCService}
+01-18 14:02:13.716  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.qualcomm.qti.workloadclassifier, app.info = ApplicationInfo{e89bfcb com.qualcomm.qti.workloadclassifier}, app.hostingType = service, getHostingName() = ComponentInfo{com.qualcomm.qti.workloadclassifier/com.qualcomm.qti.workloadclassifier.WLCService}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{2aaf7bc 7491:com.qualcomm.qti.workloadclassifier/1000}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { cmp=com.qualcomm.qti.workloadclassifier/.WLCService }, CALLER_PACKAGE=com.qualcomm.qti.workloadclassifier}]
+01-18 14:02:13.763  1449  3593 I ActivityManager: Process com.qualcomm.telephony (pid 3654) has died: cch+85 SVC 
+01-18 14:02:13.766  1449  3593 W ActivityManager: Scheduling restart of crashed service com.qualcomm.atfwd/.AtFwdService in 1000ms
+01-18 14:02:13.953  1449  3633 I ActivityManager: Process com.google.android.apps.messaging (pid 5332) has died: cch+75 CEM 
+01-18 14:02:14.790  1449  1634 I ActivityManager: Start proc 7516:com.qualcomm.telephony/u0a241 for service {com.qualcomm.atfwd/com.qualcomm.atfwd.AtFwdService}
+01-18 14:02:14.790  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.qualcomm.telephony, app.info = ApplicationInfo{139e136 com.qualcomm.atfwd}, app.hostingType = service, getHostingName() = ComponentInfo{com.qualcomm.atfwd/com.qualcomm.atfwd.AtFwdService}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{979c7ec 7516:com.qualcomm.telephony/u0a241}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { cmp=com.qualcomm.atfwd/.AtFwdService }, CALLER_PACKAGE=com.qualcomm.atfwd}]
+01-18 14:02:17.816  1449  1634 I ActivityManager: Start proc 7541:com.google.android.youtube/u0a128 for service {com.google.android.youtube/androidx.work.impl.background.systemjob.SystemJobService}
+01-18 14:02:17.817  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.google.android.youtube, app.info = ApplicationInfo{5b32884 com.google.android.youtube}, app.hostingType = service, getHostingName() = ComponentInfo{com.google.android.youtube/androidx.work.impl.background.systemjob.SystemJobService}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{db8a86d 7541:com.google.android.youtube/u0a128}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { cmp=com.google.android.youtube/androidx.work.impl.background.systemjob.SystemJobService }, CALLER_PACKAGE=android}]
+01-18 14:03:23.640  1449  5962 W ActivityManager: Permission Denial: Accessing service com.google.android.music/.dial.DialMediaRouteProviderService from pid=3835, uid=10061 that is not exported from uid 10133
+01-18 14:06:29.595  1449  1634 I ActivityManager: Start proc 7732:com.google.android.apps.wallpaper/u0a110 for broadcast {com.google.android.apps.wallpaper/com.google.android.apps.wallpaper.module.DailyLoggingAlarmReceiver}
+01-18 14:06:29.599  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.google.android.apps.wallpaper, app.info = ApplicationInfo{9bd3bf0 com.google.android.apps.wallpaper}, app.hostingType = broadcast, getHostingName() = ComponentInfo{com.google.android.apps.wallpaper/com.google.android.apps.wallpaper.module.DailyLoggingAlarmReceiver}, getIntentFlag() = 20, getIsPackageRunning() = false, app = ProcessRecord{975d569 7732:com.google.android.apps.wallpaper/u0a110}, getExtraData() = Bundle[{BROADCAST_INTENT=Intent { flg=0x14 cmp=com.google.android.apps.wallpaper/.module.DailyLoggingAlarmReceiver (has extras) }, CALLER_PACKAGE=com.google.android.apps.wallpaper}]
+01-18 14:10:54.667  1449  1634 I ActivityManager: Start proc 7809:com.microsoft.skydrive/u0a213 for service {com.microsoft.skydrive/com.microsoft.skydrive.jobs.UpdateMetadataForOfflineFilesJob}
+01-18 14:10:54.667  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.microsoft.skydrive, app.info = ApplicationInfo{ea7825e com.microsoft.skydrive}, app.hostingType = service, getHostingName() = ComponentInfo{com.microsoft.skydrive/com.microsoft.skydrive.jobs.UpdateMetadataForOfflineFilesJob}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{6213aff 7809:com.microsoft.skydrive/u0a213}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { cmp=com.microsoft.skydrive/.jobs.UpdateMetadataForOfflineFilesJob }, CALLER_PACKAGE=android}]
+01-18 14:10:56.339  1449  3593 W ActivityManager: Background start not allowed: service Intent { cmp=com.microsoft.skydrive/com.microsoft.odsp.task.TaskService } to com.microsoft.skydrive/com.microsoft.odsp.task.TaskService from pid=7809 uid=10213 pkg=com.microsoft.skydrive startFg?=false
+01-18 14:11:59.307  1449  2549 W ActivityManager: Permission Denial: Accessing service com.google.android.music/.dial.DialMediaRouteProviderService from pid=3835, uid=10061 that is not exported from uid 10133
+01-18 14:12:00.847  1449  1634 I ActivityManager: Start proc 7966:com.android.bluetooth/1002 for service {com.android.bluetooth/com.android.bluetooth.btservice.AdapterService}
+01-18 14:12:00.847  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.android.bluetooth, app.info = ApplicationInfo{8bff1f3 com.android.bluetooth}, app.hostingType = service, getHostingName() = ComponentInfo{com.android.bluetooth/com.android.bluetooth.btservice.AdapterService}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{a643eb0 7966:com.android.bluetooth/1002}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { act=android.bluetooth.IBluetooth cmp=com.android.bluetooth/.btservice.AdapterService }, CALLER_PACKAGE=android}]
+01-18 14:12:06.081  1449  1615 D ActivityManager: Package [com.mit.reality.hack] have process
+01-18 14:12:06.095  1449  1634 I ActivityManager: Start proc 8033:com.mit.reality.hack/u0a635 for activity {com.mit.reality.hack/com.unity3d.player.UnityPlayerActivity}
+01-18 14:12:06.097  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.mit.reality.hack, app.info = ApplicationInfo{d71dbb6 com.mit.reality.hack}, app.hostingType = activity, getHostingName() = ComponentInfo{com.mit.reality.hack/com.unity3d.player.UnityPlayerActivity}, getIntentFlag() = 0, getIsPackageRunning() = true, app = ProcessRecord{1501b70 8033:com.mit.reality.hack/u0a635}, getExtraData() = null
+01-18 14:12:12.207  1449  5810 D ActivityManager: Package [com.google.android.gms] have process
+01-18 14:12:12.244  1449  1634 I ActivityManager: Start proc 8214:com.google.android.gms.learning/u0a61 for service {com.google.android.gms/com.google.android.gms.learning.training.background.TrainingGcmTaskService}
+01-18 14:12:12.244  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.google.android.gms.learning, app.info = ApplicationInfo{831d2de com.google.android.gms}, app.hostingType = service, getHostingName() = ComponentInfo{com.google.android.gms/com.google.android.gms.learning.training.background.TrainingGcmTaskService}, getIntentFlag() = 0, getIsPackageRunning() = true, app = ProcessRecord{12a9cbf 8214:com.google.android.gms.learning/u0a61}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { act=com.google.android.gms.gcm.ACTION_TASK_READY cmp=com.google.android.gms/.learning.training.background.TrainingGcmTaskService }, CALLER_PACKAGE=com.google.android.gms}]
+01-18 14:12:12.540  1449  3633 I ActivityManager: Process com.android.bluetooth (pid 7966) has died: fore SVC 
+01-18 14:12:15.782  1449  2785 D ActivityManager: Package [com.google.android.gms] have process
+01-18 14:12:15.857  1449  1634 I ActivityManager: Start proc 8278:com.google.android.gms.unstable/u0a61 for service {com.google.android.gms/com.google.android.gms.droidguard.DroidGuardService}
+01-18 14:12:15.857  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.google.android.gms.unstable, app.info = ApplicationInfo{21a0544 com.google.android.gms}, app.hostingType = service, getHostingName() = ComponentInfo{com.google.android.gms/com.google.android.gms.droidguard.DroidGuardService}, getIntentFlag() = 0, getIsPackageRunning() = true, app = ProcessRecord{947262d 8278:com.google.android.gms.unstable/u0a61}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { act=com.google.android.gms.droidguard.service.START pkg=com.google.android.gms }, CALLER_PACKAGE=com.google.android.gms}]
+01-18 14:12:16.224  1449  1634 I ActivityManager: Start proc 8305:com.google.android.keep/u0a136 for service {com.google.android.keep/com.firebase.jobdispatcher.GooglePlayReceiver}
+01-18 14:12:16.225  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.google.android.keep, app.info = ApplicationInfo{120e7e6 com.google.android.keep}, app.hostingType = service, getHostingName() = ComponentInfo{com.google.android.keep/com.firebase.jobdispatcher.GooglePlayReceiver}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{38f0127 8305:com.google.android.keep/u0a136}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { act=com.google.android.gms.gcm.ACTION_TASK_READY cmp=com.google.android.keep/com.firebase.jobdispatcher.GooglePlayReceiver }, CALLER_PACKAGE=com.google.android.gms}]
+01-18 14:12:18.712  1449  1634 I ActivityManager: Start proc 8448:com.google.android.apps.messaging/u0a113 for service {com.google.android.apps.messaging/com.firebase.jobdispatcher.GooglePlayReceiver}
+01-18 14:12:18.713  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.google.android.apps.messaging, app.info = ApplicationInfo{5e7ad66 com.google.android.apps.messaging}, app.hostingType = service, getHostingName() = ComponentInfo{com.google.android.apps.messaging/com.firebase.jobdispatcher.GooglePlayReceiver}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{d5e18a7 8448:com.google.android.apps.messaging/u0a113}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { act=com.google.android.gms.gcm.ACTION_TASK_READY cmp=com.google.android.apps.messaging/com.firebase.jobdispatcher.GooglePlayReceiver }, CALLER_PACKAGE=com.google.android.gms}]
+01-18 14:12:19.261  1449  6861 W ActivityManager: Background start not allowed: service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService } to com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService from pid=8448 uid=10113 pkg=com.google.android.apps.messaging startFg?=false
+01-18 14:12:19.370  1449  3598 W ActivityManager: Background start not allowed: service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService } to com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService from pid=8448 uid=10113 pkg=com.google.android.apps.messaging startFg?=false
+01-18 14:12:25.243  1449  3598 W ActivityManager: Background start not allowed: service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService } to com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService from pid=8448 uid=10113 pkg=com.google.android.apps.messaging startFg?=false
+01-18 14:12:25.248  1449  3598 W ActivityManager: Background start not allowed: service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService } to com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService from pid=8448 uid=10113 pkg=com.google.android.apps.messaging startFg?=false
+01-18 14:12:25.515  1449  2785 W ActivityManager: Background start not allowed: service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService } to com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService from pid=8448 uid=10113 pkg=com.google.android.apps.messaging startFg?=false
+01-18 14:12:30.905  1449  6861 W ActivityManager: Background start not allowed: service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService } to com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService from pid=8448 uid=10113 pkg=com.google.android.apps.messaging startFg?=false
+01-18 14:12:39.352  1449  1633 I ActivityManager: Waited long enough for: ServiceRecord{f8d6f29 u0 com.google.android.googlequicksearchbox/com.google.android.apps.gsa.shared.util.keepalive.StandaloneKeepAlive$KeepAliveService}
+01-18 14:12:41.167  1449  6861 I ActivityManager: Process com.google.process.gapps (pid 2901) has died: cch+85 CEM 
+01-18 14:12:42.278  1449  1615 I ActivityManager: Killing 8033:com.mit.reality.hack/u0a635 (adj 905): remove task
+01-18 14:12:42.341  1449  1634 I ActivityManager: Start proc 8574:com.android.bluetooth/1002 for service {com.android.bluetooth/com.android.bluetooth.btservice.AdapterService}
+01-18 14:12:42.342  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.android.bluetooth, app.info = ApplicationInfo{ced21b5 com.android.bluetooth}, app.hostingType = service, getHostingName() = ComponentInfo{com.android.bluetooth/com.android.bluetooth.btservice.AdapterService}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{83ab04a 8574:com.android.bluetooth/1002}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { act=android.bluetooth.IBluetooth cmp=com.android.bluetooth/.btservice.AdapterService }, CALLER_PACKAGE=android}]
+01-18 14:12:42.431  1449  1615 W ActivityManager: setHasOverlayUi called on unknown pid: 8033
+01-18 14:12:58.848  1449  1634 I ActivityManager: Start proc 8635:com.google.android.partnersetup/u0a67 for service {com.google.android.partnersetup/com.google.android.partnersetup.InstalledAppJobService}
+01-18 14:12:58.848  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.google.android.partnersetup, app.info = ApplicationInfo{728e9f1 com.google.android.partnersetup}, app.hostingType = service, getHostingName() = ComponentInfo{com.google.android.partnersetup/com.google.android.partnersetup.InstalledAppJobService}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{51939d6 8635:com.google.android.partnersetup/u0a67}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { cmp=com.google.android.partnersetup/.InstalledAppJobService }, CALLER_PACKAGE=android}]
+01-18 14:13:24.889  1449  3484 W ActivityManager: Unable to start service Intent { act=com.google.firebase.MESSAGING_EVENT pkg=com.google.android.googlequicksearchbox } U=0: not found
+01-18 14:13:25.426  1449  1523 W ActivityManager: Unable to start service Intent { act=com.google.firebase.MESSAGING_EVENT pkg=com.google.android.googlequicksearchbox } U=0: not found
+01-18 14:14:19.336  1449  7759 W ActivityManager: Background start not allowed: service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService } to com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService from pid=8448 uid=10113 pkg=com.google.android.apps.messaging startFg?=false
+01-18 14:14:59.107  1449  1634 I ActivityManager: Start proc 8711:com.hmdglobal.camera2/u0a52 for content provider {com.hmdglobal.camera2/com.android.camera.SpeicalTypeProviders.DepthTypeDBProvider}
+01-18 14:14:59.107  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.hmdglobal.camera2, app.info = ApplicationInfo{8e3499d com.hmdglobal.camera2}, app.hostingType = content provider, getHostingName() = ComponentInfo{com.hmdglobal.camera2/com.android.camera.SpeicalTypeProviders.DepthTypeDBProvider}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{5a25e12 8711:com.hmdglobal.camera2/u0a52}, getExtraData() = null
+01-18 14:15:43.189  1449  1633 I ActivityManager: Force stopping com.mit.reality.hack appid=10635 user=-1: installPackageLI
+01-18 14:15:43.190  1449  1653 I PackageManager: Update package com.mit.reality.hack code path from /data/app/com.mit.reality.hack-dXAoqb4YYrhtQgCQJUAMYA== to /data/app/com.mit.reality.hack-HkZkLLHu2LY6AzHuz4RB9w==; Retain data and using new
+01-18 14:15:43.190  1449  1653 I PackageManager: Update package com.mit.reality.hack resource path from /data/app/com.mit.reality.hack-dXAoqb4YYrhtQgCQJUAMYA== to /data/app/com.mit.reality.hack-HkZkLLHu2LY6AzHuz4RB9w==; Retain data and using new
+01-18 14:15:43.390  1449  1653 I PackageManager: Un-granting permission android.permission.MANAGE_DOCUMENTS from package com.google.android.youtube (protectionLevel=262146 flags=0x30dbbec5)
+01-18 14:15:43.394  1449  1653 I PackageManager: Un-granting permission android.permission.MANAGE_USB from package com.google.android.googlequicksearchbox (protectionLevel=18 flags=0xb0dbbec5)
+01-18 14:15:43.394  1449  1653 I PackageManager: Un-granting permission com.google.android.googleapps.permission.GOOGLE_AUTH from package com.android.providers.calendar (protectionLevel=2 flags=0x3088be45)
+01-18 14:15:43.394  1449  1653 I PackageManager: Un-granting permission com.google.android.googleapps.permission.GOOGLE_AUTH.cl from package com.android.providers.calendar (protectionLevel=2 flags=0x3088be45)
+01-18 14:15:43.397  1449  1653 I PackageManager: Un-granting permission com.google.android.setupwizard.READ_DEVICE_ORIGIN from package com.google.android.apps.messaging (protectionLevel=18 flags=0x38cbbec5)
+01-18 14:15:43.398  1449  1653 I PackageManager: Un-granting permission android.permission.ACCESS_DOWNLOAD_MANAGER from package com.microsoft.office.officelens (protectionLevel=18 flags=0x30d83e44)
+01-18 14:15:43.400  1449  1653 I PackageManager: Un-granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS from package com.android.vending (protectionLevel=2 flags=0x38cabec5)
+01-18 14:15:43.402  1449  1653 I PackageManager: Un-granting permission android.permission.WRITE_SETTINGS from package com.microsoft.skydrive (protectionLevel=1218 flags=0x30d83e44)
+01-18 14:15:43.402  1449  1653 I PackageManager: Un-granting permission android.permission.REQUEST_INSTALL_PACKAGES from package com.microsoft.skydrive (protectionLevel=66 flags=0x30d83e44)
+01-18 14:15:43.403  1449  1653 I PackageManager: Un-granting permission android.permission.SYSTEM_ALERT_WINDOW from package com.rnunitydemo (protectionLevel=1250 flags=0x3888be46)
+01-18 14:15:43.408  1449  1653 I PackageManager: Un-granting permission android.permission.REQUEST_INSTALL_PACKAGES from package com.instagram.android (protectionLevel=66 flags=0x30c83e64)
+01-18 14:15:43.410  1449  1653 I PackageManager: Un-granting permission com.google.android.providers.gsf.permission.WRITE_GSERVICES from package com.google.android.as (protectionLevel=18 flags=0x30c8be44)
+01-18 14:15:43.410  1449  1653 I PackageManager: Un-granting permission android.permission.REQUEST_INSTALL_PACKAGES from package com.google.android.gm (protectionLevel=66 flags=0x38cbbec5)
+01-18 14:15:43.412  1449  1653 I PackageManager: Un-granting permission android.permission.REQUEST_INSTALL_PACKAGES from package com.moodle.moodlemobile (protectionLevel=66 flags=0x38c8be44)
+01-18 14:15:43.416  1449  1653 I PackageManager: Un-granting permission android.permission.WRITE_SETTINGS from package com.google.android.music (protectionLevel=1218 flags=0x38cbbe64)
+01-18 14:15:43.416  1449  1653 I PackageManager: Un-granting permission android.permission.BIND_JOB_SERVICE from package com.google.android.music (protectionLevel=2 flags=0x38cbbe64)
+01-18 14:15:43.417  1449  1653 I PackageManager: Un-granting permission android.permission.LOCATION_HARDWARE from package com.google.android.apps.wellbeing (protectionLevel=18 flags=0x20cbbec5)
+01-18 14:15:43.418  1449  1653 I PackageManager: Un-granting permission android.permission.WRITE_SECURE_SETTINGS from package com.google.android.dialer (protectionLevel=50 flags=0x20cbbec5)
+01-18 14:15:43.419  1449  1653 I PackageManager: Un-granting permission android.permission.REQUEST_INSTALL_PACKAGES from package com.google.android.apps.nbu.files (protectionLevel=66 flags=0x30c83ec5)
+01-18 14:15:43.421  1449  1653 I PackageManager: Un-granting permission android.permission.REQUEST_INSTALL_PACKAGES from package com.google.android.apps.docs (protectionLevel=66 flags=0x38cbbec5)
+01-18 14:15:43.422  1449  1653 I PackageManager: Un-granting permission android.permission.REQUEST_INSTALL_PACKAGES from package com.oculus.twilight (protectionLevel=66 flags=0x30c83e44)
+01-18 14:15:43.423  1449  1653 I PackageManager: Un-granting permission com.google.android.gm.permission.READ_GMAIL from package com.google.android.contacts (protectionLevel=2 flags=0x30cbbec5)
+01-18 14:15:43.423  1449  1653 I PackageManager: Un-granting permission com.google.android.googleapps.permission.GOOGLE_AUTH from package com.google.android.contacts (protectionLevel=2 flags=0x30cbbec5)
+01-18 14:15:43.424  1449  1653 I PackageManager: Un-granting permission android.permission.INTERACT_ACROSS_USERS from package com.google.android.syncadapters.contacts (protectionLevel=50 flags=0x20883e45)
+01-18 14:15:43.425  1449  1653 I PackageManager: Un-granting permission android.permission.REQUEST_INSTALL_PACKAGES from package com.android.chrome (protectionLevel=66 flags=0xa0cbbec5)
+01-18 14:15:43.426  1449  1653 I PackageManager: Un-granting permission android.permission.CAPTURE_VIDEO_OUTPUT from package com.google.android.gms (protectionLevel=2 flags=0xa0cabec5)
+01-18 14:15:43.427  1449  1653 I PackageManager: Un-granting permission android.permission.MANAGE_DEVICE_ADMINS from package com.google.android.gms (protectionLevel=2 flags=0xa0cabec5)
+01-18 14:15:43.427  1449  1653 I PackageManager: Un-granting permission android.permission.MANAGE_ACTIVITY_STACKS from package com.google.android.gms (protectionLevel=2 flags=0xa0cabec5)
+01-18 14:15:43.427  1449  1653 I PackageManager: Un-granting permission android.permission.CAPTURE_SECURE_VIDEO_OUTPUT from package com.google.android.gms (protectionLevel=2 flags=0xa0cabec5)
+01-18 14:15:43.433  1449  1653 I PackageManager: Un-granting permission com.google.android.googleapps.permission.GOOGLE_AUTH from package com.google.android.videos (protectionLevel=2 flags=0x30dbbe44)
+01-18 14:15:43.435  1449  1653 I PackageManager: Un-granting permission android.permission.WRITE_MEDIA_STORAGE from package com.google.android.apps.photos (protectionLevel=18 flags=0x38d9bec5)
+01-18 14:15:43.436  1449  1653 I PackageManager: Un-granting permission android.permission.WRITE_SETTINGS from package com.glgjing.stark (protectionLevel=1218 flags=0x3088be44)
+01-18 14:15:43.436  1449  1653 I PackageManager: Un-granting permission android.permission.SYSTEM_ALERT_WINDOW from package com.glgjing.stark (protectionLevel=1250 flags=0x3088be44)
+01-18 14:15:43.436  1449  1653 I PackageManager: Un-granting permission android.permission.PACKAGE_USAGE_STATS from package com.glgjing.stark (protectionLevel=114 flags=0x3088be44)
+01-18 14:15:43.440  1449  1653 I PackageManager: Un-granting permission android.permission.PACKAGE_USAGE_STATS from package com.hmdglobal.support (protectionLevel=114 flags=0x30c8bec5)
+01-18 14:15:43.441  1449  1653 I PackageManager: Un-granting permission android.permission.DUMP from package com.google.android.apps.turbo (protectionLevel=50 flags=0x30cbbec5)
+01-18 14:15:43.442  1449  1653 I PackageManager: Un-granting permission android.permission.READ_WALLPAPER_INTERNAL from package com.google.android.apps.wallpaper (protectionLevel=18 flags=0x38cbbec5)
+01-18 14:15:43.751  1449  1615 I ActivityManager: Killing 4773:com.google.android.apps.photos/u0a119 (adj 900): remove task
+01-18 14:15:43.809  1449  1615 W ActivityManager: setHasOverlayUi called on unknown pid: 4773
+01-18 14:15:44.319  1449  7759 I ActivityManager: Process com.google.android.contacts (pid 5502) has died: cch+85 CEM 
+01-18 14:15:44.372  1449  1653 I PackageManager: [SW3]StatsLog PKG_ADM__ADM__MODIFY, isSystemApp:false
+01-18 14:15:44.399  1449  1653 I ActivityManager: Force stopping com.mit.reality.hack appid=10635 user=0: pkg removed
+01-18 14:15:44.435  1449  3586 W ActivityManager: Permission Denial: Accessing service com.google.android.music/.dial.DialMediaRouteProviderService from pid=3835, uid=10061 that is not exported from uid 10133
+01-18 14:15:44.482  1449  5810 W ActivityManager: Permission Denial: Accessing service com.google.android.music/.dial.DialMediaRouteProviderService from pid=3835, uid=10061 that is not exported from uid 10133
+01-18 14:15:44.506  1449  3598 W ActivityManager: Permission Denial: Accessing service com.google.android.music/.dial.DialMediaRouteProviderService from pid=3835, uid=10061 that is not exported from uid 10133
+01-18 14:15:58.107  1449  1615 D ActivityManager: Package [com.mit.reality.hack] have process
+01-18 14:15:58.121  1449  1634 I ActivityManager: Start proc 8880:com.mit.reality.hack/u0a635 for activity {com.mit.reality.hack/com.unity3d.player.UnityPlayerActivity}
+01-18 14:15:58.121  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.mit.reality.hack, app.info = ApplicationInfo{1b0b1ce com.mit.reality.hack}, app.hostingType = activity, getHostingName() = ComponentInfo{com.mit.reality.hack/com.unity3d.player.UnityPlayerActivity}, getIntentFlag() = 0, getIsPackageRunning() = true, app = ProcessRecord{1bca8ef 8880:com.mit.reality.hack/u0a635}, getExtraData() = null
+01-18 14:15:59.473  1449  5810 I ActivityManager: Process com.google.android.apps.nbu.files (pid 7134) has died: cch+85 CEM 
+01-18 14:15:59.835  1449  3597 I ActivityManager: Process com.google.android.apps.turbo:ssb (pid 7284) has died: cch+75 CEM 
+01-18 14:15:59.880  1449  5962 I ActivityManager: Process com.hmdglobal.datago (pid 3791) has died: cch+75 SVC 
+01-18 14:15:59.882  1449  5962 W ActivityManager: Scheduling restart of crashed service com.hmdglobal.datago/.DataGoService in 1000ms
+01-18 14:16:00.924  1449  1634 I ActivityManager: Start proc 8947:com.hmdglobal.datago/u0a174 for service {com.hmdglobal.datago/com.hmdglobal.datago.DataGoService}
+01-18 14:16:00.924  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.hmdglobal.datago, app.info = ApplicationInfo{bc56278 com.hmdglobal.datago}, app.hostingType = service, getHostingName() = ComponentInfo{com.hmdglobal.datago/com.hmdglobal.datago.DataGoService}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{8772e53 8947:com.hmdglobal.datago/u0a174}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { cmp=com.hmdglobal.datago/.DataGoService }, CALLER_PACKAGE=com.hmdglobal.datago}]
+01-18 14:16:01.054  1449  3634 I ActivityManager: Process com.evenwell.AprUploadService (pid 7362) has died: cch+75 CEM 
+01-18 14:16:03.617  1449  8163 I ActivityManager: Process com.google.android.youtube (pid 7541) has died: cch+65 CEM 
+01-18 14:16:03.969  1449  3593 I ActivityManager: Process com.android.providers.calendar (pid 7329) has died: cch+95 CEM 
+01-18 14:16:04.055  1449  3632 I ActivityManager: Process com.Triplee.TripleeSocial (pid 10537) has died: cch+85 CEM 
+01-18 14:16:04.086  1449  3632 I ActivityManager: Process com.google.android.music:main (pid 7401) has died: cch+85 CEM 
+01-18 14:16:04.443  1449  3632 I ActivityManager: Process com.android.bluetooth (pid 8574) has died: fore SVC 
+01-18 14:16:07.077  1449  3632 I ActivityManager: Process com.google.android.apps.wallpaper (pid 7732) has died: cch+85 CEM 
+01-18 14:16:07.089  1449  3593 I ActivityManager: Process com.microsoft.skydrive (pid 7809) has died: cch+75 CEM 
+01-18 14:18:07.365  1449  8956 I ActivityManager: Process com.google.android.apps.turbo:aab (pid 7181) has died: cch+75 CEM 
+01-18 14:18:47.339  1449  7759 I ActivityManager: Process com.evenwell.batteryprotect (pid 5156) has died: cch+75 SVC 
+01-18 14:18:47.345  1449  7759 W ActivityManager: Scheduling restart of crashed service com.evenwell.batteryprotect/.DetectBatteryService in 1000ms
+01-18 14:18:48.383  1449  1634 I ActivityManager: Start proc 9316:com.evenwell.batteryprotect/1000 for service {com.evenwell.batteryprotect/com.evenwell.batteryprotect.DetectBatteryService}
+01-18 14:18:48.383  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.evenwell.batteryprotect, app.info = ApplicationInfo{a19b81e com.evenwell.batteryprotect}, app.hostingType = service, getHostingName() = ComponentInfo{com.evenwell.batteryprotect/com.evenwell.batteryprotect.DetectBatteryService}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{504491d 9316:com.evenwell.batteryprotect/1000}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { cmp=com.evenwell.batteryprotect/.DetectBatteryService }, CALLER_PACKAGE=com.evenwell.batteryprotect}]
+01-18 14:18:53.410  1449  8956 I ActivityManager: Process com.google.android.ims (pid 5287) has died: cch+75 SVC 
+01-18 14:18:53.414  1449  8956 W ActivityManager: Scheduling restart of crashed service com.google.android.ims/.services.RcsService in 1000ms
+01-18 14:18:54.147  1449  1634 I ActivityManager: Start proc 9414:com.android.bluetooth/1002 for service {com.android.bluetooth/com.android.bluetooth.btservice.AdapterService}
+01-18 14:18:54.148  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.android.bluetooth, app.info = ApplicationInfo{7d4dc15 com.android.bluetooth}, app.hostingType = service, getHostingName() = ComponentInfo{com.android.bluetooth/com.android.bluetooth.btservice.AdapterService}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{dee4b2a 9414:com.android.bluetooth/1002}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { act=android.bluetooth.IBluetooth cmp=com.android.bluetooth/.btservice.AdapterService }, CALLER_PACKAGE=android}]
+01-18 14:18:54.433  1449  1634 I ActivityManager: Start proc 9475:com.google.android.ims/u0a51 for service {com.google.android.ims/com.google.android.ims.services.RcsService}
+01-18 14:18:54.434  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.google.android.ims, app.info = ApplicationInfo{b938a84 com.google.android.ims}, app.hostingType = service, getHostingName() = ComponentInfo{com.google.android.ims/com.google.android.ims.services.RcsService}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{1a9e6e1 9475:com.google.android.ims/u0a51}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { act=csapk.created cmp=com.google.android.ims/.services.RcsService }, CALLER_PACKAGE=com.google.android.apps.messaging}]
+01-18 14:18:55.578  1449  3586 W ActivityManager: Unable to start service Intent { act=com.google.android.ims.SIM_ABSENT cmp=com.google.android.ims/cpp } U=0: not found
+01-18 14:18:55.592  1449  3597 W ActivityManager: Receiver with filter android.content.IntentFilter@41a3011 already registered for pid 9475, callerPackage is com.google.android.ims
+01-18 14:18:55.594  1449  3597 W ActivityManager: Receiver with filter android.content.IntentFilter@7f1d576 already registered for pid 9475, callerPackage is com.google.android.ims
+01-18 14:18:59.467  1449  1615 I ActivityManager: Killing 8880:com.mit.reality.hack/u0a635 (adj 905): remove task
+01-18 14:18:59.574  1449  1615 W ActivityManager: setHasOverlayUi called on unknown pid: 8880
+01-18 14:19:01.598  1449  6897 W ActivityManager: Unable to start service Intent { cmp=com.evenwell.faceplusrecognition/.FacePlusService } U=0: not found
+01-18 14:19:06.711  1449  3592 I ActivityManager: Process com.android.bluetooth (pid 9414) has died: fore SVC 
+01-18 14:21:31.758  1449  1634 I ActivityManager: Start proc 9625:com.Triplee.TripleeSocial/u0a563 for service {com.Triplee.TripleeSocial/com.onesignal.SyncJobService}
+01-18 14:21:31.759  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.Triplee.TripleeSocial, app.info = ApplicationInfo{71b5822 com.Triplee.TripleeSocial}, app.hostingType = service, getHostingName() = ComponentInfo{com.Triplee.TripleeSocial/com.onesignal.SyncJobService}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{1b1bb9b 9625:com.Triplee.TripleeSocial/u0a563}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { cmp=com.Triplee.TripleeSocial/com.onesignal.SyncJobService }, CALLER_PACKAGE=android}]
+01-18 14:42:06.692  1449  1634 I ActivityManager: Start proc 9882:com.google.android.youtube/u0a128 for service {com.google.android.youtube/androidx.work.impl.background.systemjob.SystemJobService}
+01-18 14:42:06.692  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.google.android.youtube, app.info = ApplicationInfo{651a96c com.google.android.youtube}, app.hostingType = service, getHostingName() = ComponentInfo{com.google.android.youtube/androidx.work.impl.background.systemjob.SystemJobService}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{7ec3b35 9882:com.google.android.youtube/u0a128}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { cmp=com.google.android.youtube/androidx.work.impl.background.systemjob.SystemJobService }, CALLER_PACKAGE=android}]
+01-18 14:42:07.155  1449  1634 I ActivityManager: Start proc 9928:com.google.android.apps.wellbeing/u0a169 for service {com.google.android.apps.wellbeing/com.firebase.jobdispatcher.GooglePlayReceiver}
+01-18 14:42:07.156  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.google.android.apps.wellbeing, app.info = ApplicationInfo{6e1b0c9 com.google.android.apps.wellbeing}, app.hostingType = service, getHostingName() = ComponentInfo{com.google.android.apps.wellbeing/com.firebase.jobdispatcher.GooglePlayReceiver}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{66bb3ce 9928:com.google.android.apps.wellbeing/u0a169}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { act=com.google.android.gms.gcm.ACTION_TASK_READY cmp=com.google.android.apps.wellbeing/com.firebase.jobdispatcher.GooglePlayReceiver }, CALLER_PACKAGE=com.google.android.gms}]
+01-18 14:42:07.811  1449  3632 W PackageManager: Cannot suspend package "com.android.vending": required for package verification
+01-18 14:42:07.816  1449  3632 W PackageManager: Cannot suspend package "com.google.android.apps.work.oobconfig": protected package
+01-18 14:42:07.816  1449  3632 W PackageManager: Cannot suspend the platform package: android
+01-18 14:42:07.820  1449  3632 W PackageManager: Cannot suspend package "com.android.launcher3": contains the active launcher
+01-18 14:42:07.831  1449  3632 W PackageManager: Cannot suspend package "com.google.android.dialer": is the default dialer
+01-18 14:42:07.841  1449  3632 W PackageManager: Cannot suspend package "com.google.android.packageinstaller": required for package installation
+01-18 14:42:07.841  1449  3632 W PackageManager: Cannot suspend package "com.google.android.gms": has an active device admin
+01-18 14:42:07.874  1449  1634 I ActivityManager: Start proc 10052:com.android.chrome/u0a98 for service {com.android.chrome/org.chromium.chrome.browser.usage_stats.UsageStatsBrowserServiceProvider}
+01-18 14:42:07.875  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.android.chrome, app.info = ApplicationInfo{11ca250 com.android.chrome}, app.hostingType = service, getHostingName() = ComponentInfo{com.android.chrome/org.chromium.chrome.browser.usage_stats.UsageStatsBrowserServiceProvider}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{c85ac49 10052:com.android.chrome/u0a98}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { cmp=com.android.chrome/org.chromium.chrome.browser.usage_stats.UsageStatsBrowserServiceProvider }, CALLER_PACKAGE=com.google.android.apps.wellbeing}]
+01-18 14:42:07.933  1449  3632 W PackageManager: Cannot suspend package "com.google.android.permissioncontroller": required for permissions management
+01-18 14:42:18.383  1449  6897 I ActivityManager: Killing 8214:com.google.android.gms.learning/u0a61 (adj 975): empty for 1803s
+01-18 14:42:36.765  1449  3633 I ActivityManager: Killing 8305:com.google.android.keep/u0a136 (adj 985): empty for 1817s
+01-18 14:42:36.785  1449  3484 I ActivityManager: Killing 7121:com.google.android.dialer/u0a66 (adj 985): empty for 1817s
+--------- beginning of main
+01-18 14:49:23.799  1449  1634 I ActivityManager: Start proc 10203:com.android.providers.calendar/u0a49 for content provider {com.android.providers.calendar/com.android.providers.calendar.CalendarProvider2}
+01-18 14:49:23.799  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.android.providers.calendar, app.info = ApplicationInfo{e6fa311 com.android.providers.calendar}, app.hostingType = content provider, getHostingName() = ComponentInfo{com.android.providers.calendar/com.android.providers.calendar.CalendarProvider2}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{95dcc76 10203:com.android.providers.calendar/u0a49}, getExtraData() = null
+01-18 14:49:23.992  1449  2440 I ActivityManager: Killing 8278:com.google.android.gms.unstable/u0a61 (adj 995): empty for 2220s
+01-18 14:49:24.036  1449  9443 W ActivityManager: Unable to start service Intent { act=com.google.firebase.MESSAGING_EVENT pkg=com.google.android.googlequicksearchbox } U=0: not found
+01-18 14:49:24.850  1449  3597 W ActivityManager: Unable to start service Intent { act=com.google.firebase.MESSAGING_EVENT pkg=com.google.android.googlequicksearchbox } U=0: not found
+01-18 14:49:38.649  1449  1633 I ActivityManager: Waited long enough for: ServiceRecord{1d3d987 u0 com.google.android.googlequicksearchbox/com.google.android.apps.gsa.shared.util.keepalive.StandaloneKeepAlive$KeepAliveService}
+01-18 15:01:23.958  1449  1634 I ActivityManager: Start proc 10401:com.google.android.apps.nbu.files/u0a60 for service {com.google.android.apps.nbu.files/com.google.android.apps.nbu.files.junkdetection.JunkDetectionService}
+01-18 15:01:23.958  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.google.android.apps.nbu.files, app.info = ApplicationInfo{a44bc5 com.google.android.apps.nbu.files}, app.hostingType = service, getHostingName() = ComponentInfo{com.google.android.apps.nbu.files/com.google.android.apps.nbu.files.junkdetection.JunkDetectionService}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{468791a 10401:com.google.android.apps.nbu.files/u0a60}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { cmp=com.google.android.apps.nbu.files/.junkdetection.JunkDetectionService }, CALLER_PACKAGE=android}]
+01-18 15:01:24.777  1449  9443 I ActivityManager: Killing 8635:com.google.android.partnersetup/u0a67 (adj 985): empty for 2905s
+01-18 15:01:40.042  1449  1634 I ActivityManager: Start proc 10474:com.hmdglobal.support/u0a71 for service {com.hmdglobal.support/androidx.work.impl.background.systemjob.SystemJobService}
+01-18 15:01:40.042  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.hmdglobal.support, app.info = ApplicationInfo{39c0fb6 com.hmdglobal.support}, app.hostingType = service, getHostingName() = ComponentInfo{com.hmdglobal.support/androidx.work.impl.background.systemjob.SystemJobService}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{30054b7 10474:com.hmdglobal.support/u0a71}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { cmp=com.hmdglobal.support/androidx.work.impl.background.systemjob.SystemJobService }, CALLER_PACKAGE=android}]
+01-18 15:01:41.003  1449  1634 I ActivityManager: Start proc 10568:com.google.android.webview:webview_service/u0a126 for service {com.google.android.webview/org.chromium.android_webview.services.VariationsSeedServer}
+01-18 15:01:41.004  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.google.android.webview:webview_service, app.info = ApplicationInfo{6446829 com.google.android.webview}, app.hostingType = service, getHostingName() = ComponentInfo{com.google.android.webview/org.chromium.android_webview.services.VariationsSeedServer}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{b9307ae 10568:com.google.android.webview:webview_service/u0a126}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { cmp=com.google.android.webview/org.chromium.android_webview.services.VariationsSeedServer }, CALLER_PACKAGE=com.hmdglobal.support}]
+01-18 15:01:41.060  1449  3634 D ActivityManager: Package [com.hmdglobal.support] have process
+01-18 15:01:41.094  1449  1634 I ActivityManager: Start proc 10590:com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0/u0i20 for  {com.hmdglobal.support/org.chromium.content.app.SandboxedProcessService0}
+01-18 15:01:41.094  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0, app.info = ApplicationInfo{1fa96e0 com.hmdglobal.support}, app.hostingType = , getHostingName() = null, getIntentFlag() = 0, getIsPackageRunning() = true, app = ProcessRecord{2eaad99 10590:com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0/u0a71i20}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { cmp=com.hmdglobal.support/org.chromium.content.app.SandboxedProcessService0 }, CALLER_PACKAGE=com.hmdglobal.support}]
+01-18 15:01:41.699  1449  6861 I ActivityManager: Killing 5472:android.process.acore/u0a45 (adj 995): empty for 2904s
+01-18 15:01:41.834  1449  6861 I ActivityManager: Killing 4063:com.android.keychain/1000 (adj 995): empty for 2757s
+01-18 15:01:41.836  1449  6861 I ActivityManager: Killing 8711:com.hmdglobal.camera2/u0a52 (adj 995): empty for 2802s
+01-18 15:02:08.702  1449  1634 I ActivityManager: Start proc 10684:com.evenwell.AprUploadService/u0a47 for service {com.evenwell.AprUploadService/com.fihtdc.AprUploadService.service.job.PiggybackCheckJobService}
+01-18 15:02:08.702  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.evenwell.AprUploadService, app.info = ApplicationInfo{31223a0 com.evenwell.AprUploadService}, app.hostingType = service, getHostingName() = ComponentInfo{com.evenwell.AprUploadService/com.fihtdc.AprUploadService.service.job.PiggybackCheckJobService}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{3541b59 10684:com.evenwell.AprUploadService/u0a47}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { cmp=com.evenwell.AprUploadService/com.fihtdc.AprUploadService.service.job.PiggybackCheckJobService }, CALLER_PACKAGE=android}]
+01-18 15:02:08.968  1449  8956 I ActivityManager: Killing 4091:com.google.android.gms.ui/u0a61 (adj 995): empty for 2784s
+01-18 15:03:38.865  1449  3597 I ActivityManager: Process com.evenwell.hdrservice (pid 3487) has died: cch+99 SVC 
+01-18 15:03:38.870  1449  3597 W ActivityManager: Scheduling restart of crashed service com.evenwell.hdrservice/.HDRService in 1000ms
+01-18 15:03:39.913  1449  1634 I ActivityManager: Start proc 10739:com.evenwell.hdrservice/1000 for service {com.evenwell.hdrservice/com.evenwell.hdrservice.HDRService}
+01-18 15:03:39.914  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.evenwell.hdrservice, app.info = ApplicationInfo{dcbdb30 com.evenwell.hdrservice}, app.hostingType = service, getHostingName() = ComponentInfo{com.evenwell.hdrservice/com.evenwell.hdrservice.HDRService}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{3b523a9 10739:com.evenwell.hdrservice/1000}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { cmp=com.evenwell.hdrservice/.HDRService }, CALLER_PACKAGE=android}]
+01-18 15:03:40.062  1449  9452 I ActivityManager: Process com.qualcomm.qti.workloadclassifier (pid 7491) has died: cch+95 SVC 
+01-18 15:03:40.067  1449  9452 W ActivityManager: Scheduling restart of crashed service com.qualcomm.qti.workloadclassifier/.WLCService in 1000ms
+01-18 15:03:41.122  1449  1634 I ActivityManager: Start proc 10763:com.qualcomm.qti.workloadclassifier/1000 for service {com.qualcomm.qti.workloadclassifier/com.qualcomm.qti.workloadclassifier.WLCService}
+01-18 15:03:41.123  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.qualcomm.qti.workloadclassifier, app.info = ApplicationInfo{e89bfcb com.qualcomm.qti.workloadclassifier}, app.hostingType = service, getHostingName() = ComponentInfo{com.qualcomm.qti.workloadclassifier/com.qualcomm.qti.workloadclassifier.WLCService}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{753eb78 10763:com.qualcomm.qti.workloadclassifier/1000}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { cmp=com.qualcomm.qti.workloadclassifier/.WLCService }, CALLER_PACKAGE=com.qualcomm.qti.workloadclassifier}]
+01-18 15:10:16.924  1449  1633 I ActivityManager: Force stopping com.mit.reality.hack appid=10635 user=-1: installPackageLI
+01-18 15:10:16.924  1449  1653 I PackageManager: Update package com.mit.reality.hack code path from /data/app/com.mit.reality.hack-HkZkLLHu2LY6AzHuz4RB9w== to /data/app/com.mit.reality.hack-R8mHQVMA6ZU0tyASgVeq5A==; Retain data and using new
+01-18 15:10:16.924  1449  1653 I PackageManager: Update package com.mit.reality.hack resource path from /data/app/com.mit.reality.hack-HkZkLLHu2LY6AzHuz4RB9w== to /data/app/com.mit.reality.hack-R8mHQVMA6ZU0tyASgVeq5A==; Retain data and using new
+01-18 15:10:17.052  1449  1653 I PackageManager: Un-granting permission android.permission.MANAGE_DOCUMENTS from package com.google.android.youtube (protectionLevel=262146 flags=0x30dbbec5)
+01-18 15:10:17.053  1449  1653 I PackageManager: Un-granting permission android.permission.MANAGE_USB from package com.google.android.googlequicksearchbox (protectionLevel=18 flags=0xb0dbbec5)
+01-18 15:10:17.053  1449  1653 I PackageManager: Un-granting permission com.google.android.googleapps.permission.GOOGLE_AUTH from package com.android.providers.calendar (protectionLevel=2 flags=0x3088be45)
+01-18 15:10:17.053  1449  1653 I PackageManager: Un-granting permission com.google.android.googleapps.permission.GOOGLE_AUTH.cl from package com.android.providers.calendar (protectionLevel=2 flags=0x3088be45)
+01-18 15:10:17.054  1449  1653 I PackageManager: Un-granting permission com.google.android.setupwizard.READ_DEVICE_ORIGIN from package com.google.android.apps.messaging (protectionLevel=18 flags=0x38cbbec5)
+01-18 15:10:17.055  1449  1653 I PackageManager: Un-granting permission android.permission.ACCESS_DOWNLOAD_MANAGER from package com.microsoft.office.officelens (protectionLevel=18 flags=0x30d83e44)
+01-18 15:10:17.055  1449  1653 I PackageManager: Un-granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS from package com.android.vending (protectionLevel=2 flags=0x38cabec5)
+01-18 15:10:17.056  1449  1653 I PackageManager: Un-granting permission android.permission.WRITE_SETTINGS from package com.microsoft.skydrive (protectionLevel=1218 flags=0x30d83e44)
+01-18 15:10:17.056  1449  1653 I PackageManager: Un-granting permission android.permission.REQUEST_INSTALL_PACKAGES from package com.microsoft.skydrive (protectionLevel=66 flags=0x30d83e44)
+01-18 15:10:17.056  1449  1653 I PackageManager: Un-granting permission android.permission.SYSTEM_ALERT_WINDOW from package com.rnunitydemo (protectionLevel=1250 flags=0x3888be46)
+01-18 15:10:17.058  1449  1653 I PackageManager: Un-granting permission android.permission.REQUEST_INSTALL_PACKAGES from package com.instagram.android (protectionLevel=66 flags=0x30c83e64)
+01-18 15:10:17.058  1449  1653 I PackageManager: Un-granting permission com.google.android.providers.gsf.permission.WRITE_GSERVICES from package com.google.android.as (protectionLevel=18 flags=0x30c8be44)
+01-18 15:10:17.058  1449  1653 I PackageManager: Un-granting permission android.permission.REQUEST_INSTALL_PACKAGES from package com.google.android.gm (protectionLevel=66 flags=0x38cbbec5)
+01-18 15:10:17.059  1449  1653 I PackageManager: Un-granting permission android.permission.REQUEST_INSTALL_PACKAGES from package com.moodle.moodlemobile (protectionLevel=66 flags=0x38c8be44)
+01-18 15:10:17.060  1449  1653 I PackageManager: Un-granting permission android.permission.WRITE_SETTINGS from package com.google.android.music (protectionLevel=1218 flags=0x38cbbe64)
+01-18 15:10:17.060  1449  1653 I PackageManager: Un-granting permission android.permission.BIND_JOB_SERVICE from package com.google.android.music (protectionLevel=2 flags=0x38cbbe64)
+01-18 15:10:17.061  1449  1653 I PackageManager: Un-granting permission android.permission.LOCATION_HARDWARE from package com.google.android.apps.wellbeing (protectionLevel=18 flags=0x20cbbec5)
+01-18 15:10:17.061  1449  1653 I PackageManager: Un-granting permission android.permission.WRITE_SECURE_SETTINGS from package com.google.android.dialer (protectionLevel=50 flags=0x20cbbec5)
+01-18 15:10:17.062  1449  1653 I PackageManager: Un-granting permission android.permission.REQUEST_INSTALL_PACKAGES from package com.google.android.apps.nbu.files (protectionLevel=66 flags=0x30c83ec5)
+01-18 15:10:17.062  1449  1653 I PackageManager: Un-granting permission android.permission.REQUEST_INSTALL_PACKAGES from package com.google.android.apps.docs (protectionLevel=66 flags=0x38cbbec5)
+01-18 15:10:17.063  1449  1653 I PackageManager: Un-granting permission android.permission.REQUEST_INSTALL_PACKAGES from package com.oculus.twilight (protectionLevel=66 flags=0x30c83e44)
+01-18 15:10:17.063  1449  1653 I PackageManager: Un-granting permission com.google.android.gm.permission.READ_GMAIL from package com.google.android.contacts (protectionLevel=2 flags=0x30cbbec5)
+01-18 15:10:17.063  1449  1653 I PackageManager: Un-granting permission com.google.android.googleapps.permission.GOOGLE_AUTH from package com.google.android.contacts (protectionLevel=2 flags=0x30cbbec5)
+01-18 15:10:17.063  1449  1653 I PackageManager: Un-granting permission android.permission.INTERACT_ACROSS_USERS from package com.google.android.syncadapters.contacts (protectionLevel=50 flags=0x20883e45)
+01-18 15:10:17.064  1449  1653 I PackageManager: Un-granting permission android.permission.REQUEST_INSTALL_PACKAGES from package com.android.chrome (protectionLevel=66 flags=0xa0cbbec5)
+01-18 15:10:17.064  1449  1653 I PackageManager: Un-granting permission android.permission.CAPTURE_VIDEO_OUTPUT from package com.google.android.gms (protectionLevel=2 flags=0xa0cabec5)
+01-18 15:10:17.065  1449  1653 I PackageManager: Un-granting permission android.permission.MANAGE_DEVICE_ADMINS from package com.google.android.gms (protectionLevel=2 flags=0xa0cabec5)
+01-18 15:10:17.065  1449  1653 I PackageManager: Un-granting permission android.permission.MANAGE_ACTIVITY_STACKS from package com.google.android.gms (protectionLevel=2 flags=0xa0cabec5)
+01-18 15:10:17.065  1449  1653 I PackageManager: Un-granting permission android.permission.CAPTURE_SECURE_VIDEO_OUTPUT from package com.google.android.gms (protectionLevel=2 flags=0xa0cabec5)
+01-18 15:10:17.066  1449  1653 I PackageManager: Un-granting permission com.google.android.googleapps.permission.GOOGLE_AUTH from package com.google.android.videos (protectionLevel=2 flags=0x30dbbe44)
+01-18 15:10:17.067  1449  1653 I PackageManager: Un-granting permission android.permission.WRITE_MEDIA_STORAGE from package com.google.android.apps.photos (protectionLevel=18 flags=0x38d9bec5)
+01-18 15:10:17.068  1449  1653 I PackageManager: Un-granting permission android.permission.WRITE_SETTINGS from package com.glgjing.stark (protectionLevel=1218 flags=0x3088be44)
+01-18 15:10:17.068  1449  1653 I PackageManager: Un-granting permission android.permission.SYSTEM_ALERT_WINDOW from package com.glgjing.stark (protectionLevel=1250 flags=0x3088be44)
+01-18 15:10:17.068  1449  1653 I PackageManager: Un-granting permission android.permission.PACKAGE_USAGE_STATS from package com.glgjing.stark (protectionLevel=114 flags=0x3088be44)
+01-18 15:10:17.069  1449  1653 I PackageManager: Un-granting permission android.permission.PACKAGE_USAGE_STATS from package com.hmdglobal.support (protectionLevel=114 flags=0x30c8bec5)
+01-18 15:10:17.070  1449  1653 I PackageManager: Un-granting permission android.permission.DUMP from package com.google.android.apps.turbo (protectionLevel=50 flags=0x30cbbec5)
+01-18 15:10:17.070  1449  1653 I PackageManager: Un-granting permission android.permission.READ_WALLPAPER_INTERNAL from package com.google.android.apps.wallpaper (protectionLevel=18 flags=0x38cbbec5)
+01-18 15:10:17.993  1449  1653 I PackageManager: [SW3]StatsLog PKG_ADM__ADM__MODIFY, isSystemApp:false
+01-18 15:10:18.044  1449  1653 I ActivityManager: Force stopping com.mit.reality.hack appid=10635 user=0: pkg removed
+01-18 15:10:18.145  1449  1634 I ActivityManager: Start proc 10872:com.android.keychain/1000 for service {com.android.keychain/com.android.keychain.KeyChainService}
+01-18 15:10:18.146  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.android.keychain, app.info = ApplicationInfo{2351099 com.android.keychain}, app.hostingType = service, getHostingName() = ComponentInfo{com.android.keychain/com.android.keychain.KeyChainService}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{985c8bf 10872:com.android.keychain/1000}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { act=android.intent.action.PACKAGE_REMOVED cmp=com.android.keychain/.KeyChainService }, CALLER_PACKAGE=android}]
+01-18 15:10:18.217  1449  3484 D ActivityManager: Package [com.google.android.gms] have process
+01-18 15:10:18.238  1449  1634 I ActivityManager: Start proc 10901:com.google.android.gms.ui/u0a61 for service {com.google.android.gms/com.google.android.gms.chimera.UiIntentOperationService}
+01-18 15:10:18.238  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.google.android.gms.ui, app.info = ApplicationInfo{f1e10b7 com.google.android.gms}, app.hostingType = service, getHostingName() = ComponentInfo{com.google.android.gms/com.google.android.gms.chimera.UiIntentOperationService}, getIntentFlag() = 0, getIsPackageRunning() = true, app = ProcessRecord{d6f1024 10901:com.google.android.gms.ui/u0a61}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { act=com.google.android.gms.autofill.sharedpreferences.SLAVE cat=[targeted_intent_op_prefix:.autofill.sharedpreferences.RemoteIntentOperation] cmp=com.google.android.gms/.chimera.UiIntentOperationService }, CALLER_PACKAGE=com.google.android.gms}]
+01-18 15:10:27.877  1449  2785 W ActivityManager: Permission Denial: Accessing service com.google.android.music/.dial.DialMediaRouteProviderService from pid=3835, uid=10061 that is not exported from uid 10133
+01-18 15:10:28.588  1449  3632 I ActivityManager: Process com.qualcomm.telephony (pid 7516) has died: cch+95 SVC 
+01-18 15:10:28.589  1449  3632 W ActivityManager: Scheduling restart of crashed service com.qualcomm.atfwd/.AtFwdService in 1000ms
+01-18 15:10:29.126  1449  1634 I ActivityManager: Start proc 11013:com.android.bluetooth/1002 for service {com.android.bluetooth/com.android.bluetooth.btservice.AdapterService}
+01-18 15:10:29.126  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.android.bluetooth, app.info = ApplicationInfo{b9846ab com.android.bluetooth}, app.hostingType = service, getHostingName() = ComponentInfo{com.android.bluetooth/com.android.bluetooth.btservice.AdapterService}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{8a06108 11013:com.android.bluetooth/1002}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { act=android.bluetooth.IBluetooth cmp=com.android.bluetooth/.btservice.AdapterService }, CALLER_PACKAGE=android}]
+01-18 15:10:29.611  1449  1634 I ActivityManager: Start proc 11058:com.qualcomm.telephony/u0a241 for service {com.qualcomm.atfwd/com.qualcomm.atfwd.AtFwdService}
+01-18 15:10:29.612  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.qualcomm.telephony, app.info = ApplicationInfo{139e136 com.qualcomm.atfwd}, app.hostingType = service, getHostingName() = ComponentInfo{com.qualcomm.atfwd/com.qualcomm.atfwd.AtFwdService}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{95ccad6 11058:com.qualcomm.telephony/u0a241}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { cmp=com.qualcomm.atfwd/.AtFwdService }, CALLER_PACKAGE=com.qualcomm.atfwd}]
+01-18 15:10:32.825  1449  1615 D ActivityManager: Package [com.mit.reality.hack] have process
+01-18 15:10:32.842  1449  1634 I ActivityManager: Start proc 11105:com.mit.reality.hack/u0a635 for activity {com.mit.reality.hack/com.unity3d.player.UnityPlayerActivity}
+01-18 15:10:32.843  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.mit.reality.hack, app.info = ApplicationInfo{71ae47 com.mit.reality.hack}, app.hostingType = activity, getHostingName() = ComponentInfo{com.mit.reality.hack/com.unity3d.player.UnityPlayerActivity}, getIntentFlag() = 0, getIsPackageRunning() = true, app = ProcessRecord{56b0674 11105:com.mit.reality.hack/u0a635}, getExtraData() = null
+01-18 15:10:38.752  1449  3586 I ActivityManager: Process com.hmdglobal.datago (pid 8947) has died: cch+85 SVC 
+01-18 15:10:38.755  1449  3586 W ActivityManager: Scheduling restart of crashed service com.hmdglobal.datago/.DataGoService in 1000ms
+01-18 15:10:39.178  1449  6960 I ActivityManager: Process com.android.bluetooth (pid 11013) has died: fore SVC 
+01-18 15:10:39.777  1449  1634 I ActivityManager: Start proc 11301:com.hmdglobal.datago/u0a174 for service {com.hmdglobal.datago/com.hmdglobal.datago.DataGoService}
+01-18 15:10:39.777  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.hmdglobal.datago, app.info = ApplicationInfo{bc56278 com.hmdglobal.datago}, app.hostingType = service, getHostingName() = ComponentInfo{com.hmdglobal.datago/com.hmdglobal.datago.DataGoService}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{43bef7e 11301:com.hmdglobal.datago/u0a174}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { cmp=com.hmdglobal.datago/.DataGoService }, CALLER_PACKAGE=com.hmdglobal.datago}]
+01-18 15:10:45.437  1449  2785 I ActivityManager: Killing 8448:com.google.android.apps.messaging/u0a113 (adj 985): empty for 3109s
+01-18 15:10:55.056  1449  1634 I ActivityManager: Start proc 11431:com.google.android.apps.turbo:aab/u0a173 for service {com.google.android.apps.turbo/com.google.android.libraries.smartbattery.appusage.library.InferAppBucketsJob}
+01-18 15:10:55.057  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.google.android.apps.turbo:aab, app.info = ApplicationInfo{53f930c com.google.android.apps.turbo}, app.hostingType = service, getHostingName() = ComponentInfo{com.google.android.apps.turbo/com.google.android.libraries.smartbattery.appusage.library.InferAppBucketsJob}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{2277455 11431:com.google.android.apps.turbo:aab/u0a173}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { cmp=com.google.android.apps.turbo/com.google.android.libraries.smartbattery.appusage.library.InferAppBucketsJob }, CALLER_PACKAGE=android}]
+01-18 15:11:14.844  1449  1634 I ActivityManager: Start proc 11505:com.android.bluetooth/1002 for service {com.android.bluetooth/com.android.bluetooth.btservice.AdapterService}
+01-18 15:11:14.844  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.android.bluetooth, app.info = ApplicationInfo{72c5195 com.android.bluetooth}, app.hostingType = service, getHostingName() = ComponentInfo{com.android.bluetooth/com.android.bluetooth.btservice.AdapterService}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{cf852aa 11505:com.android.bluetooth/1002}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { act=android.bluetooth.IBluetooth cmp=com.android.bluetooth/.btservice.AdapterService }, CALLER_PACKAGE=android}]
+01-18 15:11:14.885  1449  6861 I ActivityManager: Process com.mit.reality.hack (pid 11105) has died: cch+5 CEM 
+01-18 15:11:14.903  1449  1615 W ActivityManager: setHasOverlayUi called on unknown pid: 11105
+01-18 15:11:16.474  1449  3586 W ActivityManager: Unable to start service Intent { cmp=com.evenwell.faceplusrecognition/.FacePlusService } U=0: not found
+01-18 15:11:21.629  1449  3586 I ActivityManager: Process com.android.bluetooth (pid 11505) has died: fore SVC 
+01-18 15:11:32.436  1449  1634 I ActivityManager: Start proc 11564:com.microsoft.skydrive/u0a213 for service {com.microsoft.skydrive/com.microsoft.skydrive.jobs.UpdateMetadataForOfflineFilesJob}
+01-18 15:11:32.437  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.microsoft.skydrive, app.info = ApplicationInfo{ea7825e com.microsoft.skydrive}, app.hostingType = service, getHostingName() = ComponentInfo{com.microsoft.skydrive/com.microsoft.skydrive.jobs.UpdateMetadataForOfflineFilesJob}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{d27d807 11564:com.microsoft.skydrive/u0a213}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { cmp=com.microsoft.skydrive/.jobs.UpdateMetadataForOfflineFilesJob }, CALLER_PACKAGE=android}]
+01-18 15:11:34.082  1449  6897 W ActivityManager: Background start not allowed: service Intent { cmp=com.microsoft.skydrive/com.microsoft.odsp.task.TaskService } to com.microsoft.skydrive/com.microsoft.odsp.task.TaskService from pid=11564 uid=10213 pkg=com.microsoft.skydrive startFg?=false
+01-18 15:12:09.649  1449  3634 I ActivityManager: Killing 9928:com.google.android.apps.wellbeing/u0a169 (adj 985): empty for 1800s
+01-18 15:12:09.663  1449  3634 I ActivityManager: Killing 10052:com.android.chrome/u0a98 (adj 985): empty for 1800s
+01-18 15:12:09.669  1449  3634 I ActivityManager: Killing 9882:com.google.android.youtube/u0a128 (adj 995): empty for 1801s
+01-18 15:12:59.120  1449  1634 I ActivityManager: Start proc 11695:com.google.android.partnersetup/u0a67 for service {com.google.android.partnersetup/com.google.android.partnersetup.InstalledAppJobService}
+01-18 15:12:59.121  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.google.android.partnersetup, app.info = ApplicationInfo{abd9c9d com.google.android.partnersetup}, app.hostingType = service, getHostingName() = ComponentInfo{com.google.android.partnersetup/com.google.android.partnersetup.InstalledAppJobService}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{6e1b512 11695:com.google.android.partnersetup/u0a67}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { cmp=com.google.android.partnersetup/.InstalledAppJobService }, CALLER_PACKAGE=android}]
+01-18 15:13:55.075  1449  3632 W ActivityManager: Permission Denial: Accessing service com.google.android.music/.dial.DialMediaRouteProviderService from pid=3835, uid=10061 that is not exported from uid 10133
+01-18 15:13:57.663  1449  8163 W ActivityManager: Permission Denial: Accessing service com.google.android.music/.dial.DialMediaRouteProviderService from pid=3835, uid=10061 that is not exported from uid 10133
+01-18 15:13:59.249  1449  1634 I ActivityManager: Start proc 11799:com.android.bluetooth/1002 for service {com.android.bluetooth/com.android.bluetooth.btservice.AdapterService}
+01-18 15:13:59.250  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.android.bluetooth, app.info = ApplicationInfo{7aa749a com.android.bluetooth}, app.hostingType = service, getHostingName() = ComponentInfo{com.android.bluetooth/com.android.bluetooth.btservice.AdapterService}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{c36c1cb 11799:com.android.bluetooth/1002}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { act=android.bluetooth.IBluetooth cmp=com.android.bluetooth/.btservice.AdapterService }, CALLER_PACKAGE=android}]
+01-18 15:13:59.672  1449  1615 D ActivityManager: Package [com.mit.reality.hack] have process
+01-18 15:13:59.694  1449  1634 I ActivityManager: Start proc 11846:com.mit.reality.hack/u0a635 for activity {com.mit.reality.hack/com.unity3d.player.UnityPlayerActivity}
+01-18 15:13:59.694  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.mit.reality.hack, app.info = ApplicationInfo{71ae47 com.mit.reality.hack}, app.hostingType = activity, getHostingName() = ComponentInfo{com.mit.reality.hack/com.unity3d.player.UnityPlayerActivity}, getIntentFlag() = 0, getIsPackageRunning() = true, app = ProcessRecord{6b34b5a 11846:com.mit.reality.hack/u0a635}, getExtraData() = null
+01-18 15:14:06.026  1449  3632 I ActivityManager: Process com.android.bluetooth (pid 11799) has died: fore SVC 
+01-18 15:14:15.089  1449  5962 I ActivityManager: Process com.evenwell.batteryprotect (pid 9316) has died: cch+85 SVC 
+01-18 15:14:15.093  1449  5962 W ActivityManager: Scheduling restart of crashed service com.evenwell.batteryprotect/.DetectBatteryService in 1000ms
+01-18 15:14:16.118  1449  1634 I ActivityManager: Start proc 12119:com.evenwell.batteryprotect/1000 for service {com.evenwell.batteryprotect/com.evenwell.batteryprotect.DetectBatteryService}
+01-18 15:14:16.118  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.evenwell.batteryprotect, app.info = ApplicationInfo{a19b81e com.evenwell.batteryprotect}, app.hostingType = service, getHostingName() = ComponentInfo{com.evenwell.batteryprotect/com.evenwell.batteryprotect.DetectBatteryService}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{680333b 12119:com.evenwell.batteryprotect/1000}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { cmp=com.evenwell.batteryprotect/.DetectBatteryService }, CALLER_PACKAGE=com.evenwell.batteryprotect}]
+01-18 15:14:37.893 11846 11870 E Unity   : NullReferenceException: Object reference not set to an instance of an object
+01-18 15:14:37.893 11846 11870 E Unity   :   at UpdateProgressDisplay.UpdateText (System.Single percentage) [0x0001d] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:37.893 11846 11870 E Unity   :   at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00011] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:37.893 11846 11870 E Unity   :   at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00023] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:37.893 11846 11870 E Unity   :   at AnchorInit+<>c__DisplayClass12_0.<SaveCurrentObjectAnchorToCloudAsync>b__0 () [0x00000] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:37.893 11846 11870 E Unity   :   at Microsoft.Azure.SpatialAnchors.Unity.UnityDispatcher.Update () [0x0003f] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:37.893 11846 11870 E Unity   :  
+01-18 15:14:37.893 11846 11870 E Unity   : (Filename: <117bb4f863444190a2260a8bf94cc007> Line: 0)
+01-18 15:14:37.893 11846 11870 E Unity   : 
+01-18 15:14:38.228 11846 11870 E Unity   : NullReferenceException: Object reference not set to an instance of an object
+01-18 15:14:38.228 11846 11870 E Unity   :   at UpdateProgressDisplay.UpdateText (System.Single percentage) [0x0001d] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:38.228 11846 11870 E Unity   :   at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00011] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:38.228 11846 11870 E Unity   :   at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00023] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:38.228 11846 11870 E Unity   :   at AnchorInit+<>c__DisplayClass12_0.<SaveCurrentObjectAnchorToCloudAsync>b__0 () [0x00000] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:38.228 11846 11870 E Unity   :   at Microsoft.Azure.SpatialAnchors.Unity.UnityDispatcher.Update () [0x0003f] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:38.228 11846 11870 E Unity   :  
+01-18 15:14:38.228 11846 11870 E Unity   : (Filename: <117bb4f863444190a2260a8bf94cc007> Line: 0)
+01-18 15:14:38.228 11846 11870 E Unity   : 
+01-18 15:14:38.560 11846 11870 E Unity   : NullReferenceException: Object reference not set to an instance of an object
+01-18 15:14:38.560 11846 11870 E Unity   :   at UpdateProgressDisplay.UpdateText (System.Single percentage) [0x0001d] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:38.560 11846 11870 E Unity   :   at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00011] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:38.560 11846 11870 E Unity   :   at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00023] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:38.560 11846 11870 E Unity   :   at AnchorInit+<>c__DisplayClass12_0.<SaveCurrentObjectAnchorToCloudAsync>b__0 () [0x00000] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:38.560 11846 11870 E Unity   :   at Microsoft.Azure.SpatialAnchors.Unity.UnityDispatcher.Update () [0x0003f] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:38.560 11846 11870 E Unity   :  
+01-18 15:14:38.560 11846 11870 E Unity   : (Filename: <117bb4f863444190a2260a8bf94cc007> Line: 0)
+01-18 15:14:38.560 11846 11870 E Unity   : 
+01-18 15:14:38.892 11846 11870 E Unity   : NullReferenceException: Object reference not set to an instance of an object
+01-18 15:14:38.892 11846 11870 E Unity   :   at UpdateProgressDisplay.UpdateText (System.Single percentage) [0x0001d] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:38.892 11846 11870 E Unity   :   at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00011] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:38.892 11846 11870 E Unity   :   at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00023] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:38.892 11846 11870 E Unity   :   at AnchorInit+<>c__DisplayClass12_0.<SaveCurrentObjectAnchorToCloudAsync>b__0 () [0x00000] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:38.892 11846 11870 E Unity   :   at Microsoft.Azure.SpatialAnchors.Unity.UnityDispatcher.Update () [0x0003f] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:38.892 11846 11870 E Unity   :  
+01-18 15:14:38.892 11846 11870 E Unity   : (Filename: <117bb4f863444190a2260a8bf94cc007> Line: 0)
+01-18 15:14:38.892 11846 11870 E Unity   : 
+01-18 15:14:39.227 11846 11870 E Unity   : NullReferenceException: Object reference not set to an instance of an object
+01-18 15:14:39.227 11846 11870 E Unity   :   at UpdateProgressDisplay.UpdateText (System.Single percentage) [0x0001d] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:39.227 11846 11870 E Unity   :   at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00011] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:39.227 11846 11870 E Unity   :   at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00023] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:39.227 11846 11870 E Unity   :   at AnchorInit+<>c__DisplayClass12_0.<SaveCurrentObjectAnchorToCloudAsync>b__0 () [0x00000] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:39.227 11846 11870 E Unity   :   at Microsoft.Azure.SpatialAnchors.Unity.UnityDispatcher.Update () [0x0003f] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:39.227 11846 11870 E Unity   :  
+01-18 15:14:39.227 11846 11870 E Unity   : (Filename: <117bb4f863444190a2260a8bf94cc007> Line: 0)
+01-18 15:14:39.227 11846 11870 E Unity   : 
+01-18 15:14:39.564 11846 11870 E Unity   : NullReferenceException: Object reference not set to an instance of an object
+01-18 15:14:39.564 11846 11870 E Unity   :   at UpdateProgressDisplay.UpdateText (System.Single percentage) [0x0001d] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:39.564 11846 11870 E Unity   :   at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00011] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:39.564 11846 11870 E Unity   :   at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00023] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:39.564 11846 11870 E Unity   :   at AnchorInit+<>c__DisplayClass12_0.<SaveCurrentObjectAnchorToCloudAsync>b__0 () [0x00000] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:39.564 11846 11870 E Unity   :   at Microsoft.Azure.SpatialAnchors.Unity.UnityDispatcher.Update () [0x0003f] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:39.564 11846 11870 E Unity   :  
+01-18 15:14:39.564 11846 11870 E Unity   : (Filename: <117bb4f863444190a2260a8bf94cc007> Line: 0)
+01-18 15:14:39.564 11846 11870 E Unity   : 
+01-18 15:14:39.892 11846 11870 E Unity   : NullReferenceException: Object reference not set to an instance of an object
+01-18 15:14:39.892 11846 11870 E Unity   :   at UpdateProgressDisplay.UpdateText (System.Single percentage) [0x0001d] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:39.892 11846 11870 E Unity   :   at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00011] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:39.892 11846 11870 E Unity   :   at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00023] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:39.892 11846 11870 E Unity   :   at AnchorInit+<>c__DisplayClass12_0.<SaveCurrentObjectAnchorToCloudAsync>b__0 () [0x00000] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:39.892 11846 11870 E Unity   :   at Microsoft.Azure.SpatialAnchors.Unity.UnityDispatcher.Update () [0x0003f] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:39.892 11846 11870 E Unity   :  
+01-18 15:14:39.892 11846 11870 E Unity   : (Filename: <117bb4f863444190a2260a8bf94cc007> Line: 0)
+01-18 15:14:39.892 11846 11870 E Unity   : 
+01-18 15:14:40.230 11846 11870 E Unity   : NullReferenceException: Object reference not set to an instance of an object
+01-18 15:14:40.230 11846 11870 E Unity   :   at UpdateProgressDisplay.UpdateText (System.Single percentage) [0x0001d] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:40.230 11846 11870 E Unity   :   at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00011] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:40.230 11846 11870 E Unity   :   at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00023] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:40.230 11846 11870 E Unity   :   at AnchorInit+<>c__DisplayClass12_0.<SaveCurrentObjectAnchorToCloudAsync>b__0 () [0x00000] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:40.230 11846 11870 E Unity   :   at Microsoft.Azure.SpatialAnchors.Unity.UnityDispatcher.Update () [0x0003f] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:40.230 11846 11870 E Unity   :  
+01-18 15:14:40.230 11846 11870 E Unity   : (Filename: <117bb4f863444190a2260a8bf94cc007> Line: 0)
+01-18 15:14:40.230 11846 11870 E Unity   : 
+01-18 15:14:40.560 11846 11870 E Unity   : NullReferenceException: Object reference not set to an instance of an object
+01-18 15:14:40.560 11846 11870 E Unity   :   at UpdateProgressDisplay.UpdateText (System.Single percentage) [0x0001d] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:40.560 11846 11870 E Unity   :   at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00011] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:40.560 11846 11870 E Unity   :   at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00023] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:40.560 11846 11870 E Unity   :   at AnchorInit+<>c__DisplayClass12_0.<SaveCurrentObjectAnchorToCloudAsync>b__0 () [0x00000] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:40.560 11846 11870 E Unity   :   at Microsoft.Azure.SpatialAnchors.Unity.UnityDispatcher.Update () [0x0003f] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:40.560 11846 11870 E Unity   :  
+01-18 15:14:40.560 11846 11870 E Unity   : (Filename: <117bb4f863444190a2260a8bf94cc007> Line: 0)
+01-18 15:14:40.560 11846 11870 E Unity   : 
+01-18 15:14:40.893 11846 11870 E Unity   : NullReferenceException: Object reference not set to an instance of an object
+01-18 15:14:40.893 11846 11870 E Unity   :   at UpdateProgressDisplay.UpdateText (System.Single percentage) [0x0001d] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:40.893 11846 11870 E Unity   :   at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00011] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:40.893 11846 11870 E Unity   :   at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00023] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:40.893 11846 11870 E Unity   :   at AnchorInit+<>c__DisplayClass12_0.<SaveCurrentObjectAnchorToCloudAsync>b__0 () [0x00000] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:40.893 11846 11870 E Unity   :   at Microsoft.Azure.SpatialAnchors.Unity.UnityDispatcher.Update () [0x0003f] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:40.893 11846 11870 E Unity   :  
+01-18 15:14:40.893 11846 11870 E Unity   : (Filename: <117bb4f863444190a2260a8bf94cc007> Line: 0)
+01-18 15:14:40.893 11846 11870 E Unity   : 
+01-18 15:14:41.244 11846 11870 E Unity   : NullReferenceException: Object reference not set to an instance of an object
+01-18 15:14:41.244 11846 11870 E Unity   :   at UpdateProgressDisplay.UpdateText (System.Single percentage) [0x0001d] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:41.244 11846 11870 E Unity   :   at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00011] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:41.244 11846 11870 E Unity   :   at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00023] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:41.244 11846 11870 E Unity   :   at AnchorInit+<>c__DisplayClass12_0.<SaveCurrentObjectAnchorToCloudAsync>b__0 () [0x00000] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:41.244 11846 11870 E Unity   :   at Microsoft.Azure.SpatialAnchors.Unity.UnityDispatcher.Update () [0x0003f] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:41.244 11846 11870 E Unity   :  
+01-18 15:14:41.244 11846 11870 E Unity   : (Filename: <117bb4f863444190a2260a8bf94cc007> Line: 0)
+01-18 15:14:41.244 11846 11870 E Unity   : 
+01-18 15:14:41.568 11846 11870 E Unity   : NullReferenceException: Object reference not set to an instance of an object
+01-18 15:14:41.568 11846 11870 E Unity   :   at UpdateProgressDisplay.UpdateText (System.Single percentage) [0x0001d] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:41.568 11846 11870 E Unity   :   at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00011] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:41.568 11846 11870 E Unity   :   at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00023] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:41.568 11846 11870 E Unity   :   at AnchorInit+<>c__DisplayClass12_0.<SaveCurrentObjectAnchorToCloudAsync>b__0 () [0x00000] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:41.568 11846 11870 E Unity   :   at Microsoft.Azure.SpatialAnchors.Unity.UnityDispatcher.Update () [0x0003f] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:41.568 11846 11870 E Unity   :  
+01-18 15:14:41.568 11846 11870 E Unity   : (Filename: <117bb4f863444190a2260a8bf94cc007> Line: 0)
+01-18 15:14:41.568 11846 11870 E Unity   : 
+01-18 15:14:41.891 11846 11870 E Unity   : NullReferenceException: Object reference not set to an instance of an object
+01-18 15:14:41.891 11846 11870 E Unity   :   at UpdateProgressDisplay.UpdateText (System.Single percentage) [0x0001d] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:41.891 11846 11870 E Unity   :   at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00011] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:41.891 11846 11870 E Unity   :   at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00023] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:41.891 11846 11870 E Unity   :   at AnchorInit+<>c__DisplayClass12_0.<SaveCurrentObjectAnchorToCloudAsync>b__0 () [0x00000] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:41.891 11846 11870 E Unity   :   at Microsoft.Azure.SpatialAnchors.Unity.UnityDispatcher.Update () [0x0003f] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:41.891 11846 11870 E Unity   :  
+01-18 15:14:41.891 11846 11870 E Unity   : (Filename: <117bb4f863444190a2260a8bf94cc007> Line: 0)
+01-18 15:14:41.891 11846 11870 E Unity   : 
+01-18 15:14:42.278 11846 11870 E Unity   : NullReferenceException: Object reference not set to an instance of an object
+01-18 15:14:42.278 11846 11870 E Unity   :   at UpdateProgressDisplay.UpdateText (System.Single percentage) [0x0001d] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:42.278 11846 11870 E Unity   :   at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00011] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:42.278 11846 11870 E Unity   :   at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00023] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:42.278 11846 11870 E Unity   :   at AnchorInit+<>c__DisplayClass12_0.<SaveCurrentObjectAnchorToCloudAsync>b__0 () [0x00000] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:42.278 11846 11870 E Unity   :   at Microsoft.Azure.SpatialAnchors.Unity.UnityDispatcher.Update () [0x0003f] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:42.278 11846 11870 E Unity   :  
+01-18 15:14:42.278 11846 11870 E Unity   : (Filename: <117bb4f863444190a2260a8bf94cc007> Line: 0)
+01-18 15:14:42.278 11846 11870 E Unity   : 
+01-18 15:14:42.625 11846 11870 E Unity   : NullReferenceException: Object reference not set to an instance of an object
+01-18 15:14:42.625 11846 11870 E Unity   :   at UpdateProgressDisplay.UpdateText (System.Single percentage) [0x0001d] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:42.625 11846 11870 E Unity   :   at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00011] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:42.625 11846 11870 E Unity   :   at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00023] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:42.625 11846 11870 E Unity   :   at AnchorInit+<>c__DisplayClass12_0.<SaveCurrentObjectAnchorToCloudAsync>b__0 () [0x00000] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:42.625 11846 11870 E Unity   :   at Microsoft.Azure.SpatialAnchors.Unity.UnityDispatcher.Update () [0x0003f] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:42.625 11846 11870 E Unity   :  
+01-18 15:14:42.625 11846 11870 E Unity   : (Filename: <117bb4f863444190a2260a8bf94cc007> Line: 0)
+01-18 15:14:42.625 11846 11870 E Unity   : 
+01-18 15:14:42.961 11846 11870 E Unity   : NullReferenceException: Object reference not set to an instance of an object
+01-18 15:14:42.961 11846 11870 E Unity   :   at UpdateProgressDisplay.UpdateText (System.Single percentage) [0x0001d] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:42.961 11846 11870 E Unity   :   at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00011] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:42.961 11846 11870 E Unity   :   at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00023] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:42.961 11846 11870 E Unity   :   at AnchorInit+<>c__DisplayClass12_0.<SaveCurrentObjectAnchorToCloudAsync>b__0 () [0x00000] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:42.961 11846 11870 E Unity   :   at Microsoft.Azure.SpatialAnchors.Unity.UnityDispatcher.Update () [0x0003f] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:42.961 11846 11870 E Unity   :  
+01-18 15:14:42.961 11846 11870 E Unity   : (Filename: <117bb4f863444190a2260a8bf94cc007> Line: 0)
+01-18 15:14:42.961 11846 11870 E Unity   : 
+01-18 15:14:43.292 11846 11870 E Unity   : NullReferenceException: Object reference not set to an instance of an object
+01-18 15:14:43.292 11846 11870 E Unity   :   at UpdateProgressDisplay.UpdateText (System.Single percentage) [0x0001d] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:43.292 11846 11870 E Unity   :   at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00011] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:43.292 11846 11870 E Unity   :   at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00023] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:43.292 11846 11870 E Unity   :   at AnchorInit+<>c__DisplayClass12_0.<SaveCurrentObjectAnchorToCloudAsync>b__0 () [0x00000] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:43.292 11846 11870 E Unity   :   at Microsoft.Azure.SpatialAnchors.Unity.UnityDispatcher.Update () [0x0003f] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:43.292 11846 11870 E Unity   :  
+01-18 15:14:43.292 11846 11870 E Unity   : (Filename: <117bb4f863444190a2260a8bf94cc007> Line: 0)
+01-18 15:14:43.292 11846 11870 E Unity   : 
+01-18 15:14:43.692 11846 11870 E Unity   : NullReferenceException: Object reference not set to an instance of an object
+01-18 15:14:43.692 11846 11870 E Unity   :   at UpdateProgressDisplay.UpdateText (System.Single percentage) [0x0001d] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:43.692 11846 11870 E Unity   :   at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00011] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:43.692 11846 11870 E Unity   :   at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00023] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:43.692 11846 11870 E Unity   :   at AnchorInit+<>c__DisplayClass12_0.<SaveCurrentObjectAnchorToCloudAsync>b__0 () [0x00000] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:43.692 11846 11870 E Unity   :   at Microsoft.Azure.SpatialAnchors.Unity.UnityDispatcher.Update () [0x0003f] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:43.692 11846 11870 E Unity   :  
+01-18 15:14:43.692 11846 11870 E Unity   : (Filename: <117bb4f863444190a2260a8bf94cc007> Line: 0)
+01-18 15:14:43.692 11846 11870 E Unity   : 
+01-18 15:14:43.925 11846 11870 E Unity   : NullReferenceException: Object reference not set to an instance of an object
+01-18 15:14:43.925 11846 11870 E Unity   :   at UpdateProgressDisplay.UpdateText (System.Single percentage) [0x0001d] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:43.925 11846 11870 E Unity   :   at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00011] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:43.925 11846 11870 E Unity   :   at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00023] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:43.925 11846 11870 E Unity   :   at AnchorInit+<>c__DisplayClass12_0.<SaveCurrentObjectAnchorToCloudAsync>b__0 () [0x00000] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:43.925 11846 11870 E Unity   :   at Microsoft.Azure.SpatialAnchors.Unity.UnityDispatcher.Update () [0x0003f] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:43.925 11846 11870 E Unity   :  
+01-18 15:14:43.925 11846 11870 E Unity   : (Filename: <117bb4f863444190a2260a8bf94cc007> Line: 0)
+01-18 15:14:43.925 11846 11870 E Unity   : 
+01-18 15:14:43.995 11846 11870 E Unity   : NullReferenceException: Object reference not set to an instance of an object
+01-18 15:14:43.995 11846 11870 E Unity   :   at UpdateProgressDisplay.UpdateText (System.Single percentage) [0x0001d] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:43.995 11846 11870 E Unity   :   at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00011] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:43.995 11846 11870 E Unity   :   at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00023] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:43.995 11846 11870 E Unity   :   at AnchorInit+<>c__DisplayClass12_0.<SaveCurrentObjectAnchorToCloudAsync>b__0 () [0x00000] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:43.995 11846 11870 E Unity   :   at Microsoft.Azure.SpatialAnchors.Unity.UnityDispatcher.Update () [0x0003f] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:43.995 11846 11870 E Unity   :  
+01-18 15:14:43.995 11846 11870 E Unity   : (Filename: <117bb4f863444190a2260a8bf94cc007> Line: 0)
+01-18 15:14:43.995 11846 11870 E Unity   : 
+01-18 15:14:44.260 11846 11870 E Unity   : NullReferenceException: Object reference not set to an instance of an object
+01-18 15:14:44.260 11846 11870 E Unity   :   at UpdateProgressDisplay.UpdateText (System.Single percentage) [0x0001d] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:44.260 11846 11870 E Unity   :   at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00011] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:44.260 11846 11870 E Unity   :   at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00023] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:44.260 11846 11870 E Unity   :   at AnchorInit+<>c__DisplayClass12_0.<SaveCurrentObjectAnchorToCloudAsync>b__0 () [0x00000] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:44.260 11846 11870 E Unity   :   at Microsoft.Azure.SpatialAnchors.Unity.UnityDispatcher.Update () [0x0003f] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:44.260 11846 11870 E Unity   :  
+01-18 15:14:44.260 11846 11870 E Unity   : (Filename: <117bb4f863444190a2260a8bf94cc007> Line: 0)
+01-18 15:14:44.260 11846 11870 E Unity   : 
+01-18 15:14:44.327 11846 11870 E Unity   : NullReferenceException: Object reference not set to an instance of an object
+01-18 15:14:44.327 11846 11870 E Unity   :   at UpdateProgressDisplay.UpdateText (System.Single percentage) [0x0001d] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:44.327 11846 11870 E Unity   :   at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00011] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:44.327 11846 11870 E Unity   :   at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00023] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:44.327 11846 11870 E Unity   :   at AnchorInit+<>c__DisplayClass12_0.<SaveCurrentObjectAnchorToCloudAsync>b__0 () [0x00000] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:44.327 11846 11870 E Unity   :   at Microsoft.Azure.SpatialAnchors.Unity.UnityDispatcher.Update () [0x0003f] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:44.327 11846 11870 E Unity   :  
+01-18 15:14:44.327 11846 11870 E Unity   : (Filename: <117bb4f863444190a2260a8bf94cc007> Line: 0)
+01-18 15:14:44.327 11846 11870 E Unity   : 
+01-18 15:14:44.593 11846 11870 E Unity   : NullReferenceException: Object reference not set to an instance of an object
+01-18 15:14:44.593 11846 11870 E Unity   :   at UpdateProgressDisplay.UpdateText (System.Single percentage) [0x0001d] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:44.593 11846 11870 E Unity   :   at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00011] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:44.593 11846 11870 E Unity   :   at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00023] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:44.593 11846 11870 E Unity   :   at AnchorInit+<>c__DisplayClass12_0.<SaveCurrentObjectAnchorToCloudAsync>b__0 () [0x00000] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:44.593 11846 11870 E Unity   :   at Microsoft.Azure.SpatialAnchors.Unity.UnityDispatcher.Update () [0x0003f] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:44.593 11846 11870 E Unity   :  
+01-18 15:14:44.593 11846 11870 E Unity   : (Filename: <117bb4f863444190a2260a8bf94cc007> Line: 0)
+01-18 15:14:44.593 11846 11870 E Unity   : 
+01-18 15:14:44.673 11846 11870 E Unity   : NullReferenceException: Object reference not set to an instance of an object
+01-18 15:14:44.673 11846 11870 E Unity   :   at UpdateProgressDisplay.UpdateText (System.Single percentage) [0x0001d] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:44.673 11846 11870 E Unity   :   at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00011] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:44.673 11846 11870 E Unity   :   at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00023] in <38e8064b9da648b081580a64b9f8f73e>:0 
+01-18 15:14:44.673 11846 11870 E Unity   :   at AnchorInit+<>c__DisplayClass12_0.<SaveCurrentObjectAnchorToCloudAsync>b__0 () [0x00000] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:44.673 11846 11870 E Unity   :   at Microsoft.Azure.SpatialAnchors.Unity.UnityDispatcher.Update () [0x0003f] in <117bb4f863444190a2260a8bf94cc007>:0 
+01-18 15:14:44.673 11846 11870 E Unity   :  
+01-18 15:14:44.673 11846 11870 E Unity   : (Filename: <117bb4f863444190a2260a8bf94cc007> Line: 0)
+01-18 15:14:44.673 11846 11870 E Unity   : 
+01-18 15:14:45.432  1449  1634 I ActivityManager: Start proc 12170:com.android.bluetooth/1002 for service {com.android.bluetooth/com.android.bluetooth.btservice.AdapterService}
+01-18 15:14:45.433  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.android.bluetooth, app.info = ApplicationInfo{687f568 com.android.bluetooth}, app.hostingType = service, getHostingName() = ComponentInfo{com.android.bluetooth/com.android.bluetooth.btservice.AdapterService}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{b195d81 12170:com.android.bluetooth/1002}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { act=android.bluetooth.IBluetooth cmp=com.android.bluetooth/.btservice.AdapterService }, CALLER_PACKAGE=android}]
+01-18 15:14:45.460  1449  3632 I ActivityManager: Process com.mit.reality.hack (pid 11846) has died: cch+5 CEM 
+01-18 15:14:45.478  1449  1615 W ActivityManager: setHasOverlayUi called on unknown pid: 11846
+01-18 15:14:47.429  1449  6960 W ActivityManager: Unable to start service Intent { cmp=com.evenwell.faceplusrecognition/.FacePlusService } U=0: not found
+01-18 15:14:52.516  1449  8163 I ActivityManager: Process com.android.bluetooth (pid 12170) has died: fore SVC 
+01-18 15:18:16.895  1449  1633 I ActivityManager: Force stopping com.mit.reality.hack appid=10635 user=-1: installPackageLI
+01-18 15:18:16.896  1449  1653 I PackageManager: Update package com.mit.reality.hack code path from /data/app/com.mit.reality.hack-R8mHQVMA6ZU0tyASgVeq5A== to /data/app/com.mit.reality.hack-TNVSTrgButXqLegjQ445MA==; Retain data and using new
+01-18 15:18:16.896  1449  1653 I PackageManager: Update package com.mit.reality.hack resource path from /data/app/com.mit.reality.hack-R8mHQVMA6ZU0tyASgVeq5A== to /data/app/com.mit.reality.hack-TNVSTrgButXqLegjQ445MA==; Retain data and using new
+01-18 15:18:17.058  1449  1653 I PackageManager: Un-granting permission android.permission.MANAGE_DOCUMENTS from package com.google.android.youtube (protectionLevel=262146 flags=0x30dbbec5)
+01-18 15:18:17.061  1449  1653 I PackageManager: Un-granting permission android.permission.MANAGE_USB from package com.google.android.googlequicksearchbox (protectionLevel=18 flags=0xb0dbbec5)
+01-18 15:18:17.061  1449  1653 I PackageManager: Un-granting permission com.google.android.googleapps.permission.GOOGLE_AUTH from package com.android.providers.calendar (protectionLevel=2 flags=0x3088be45)
+01-18 15:18:17.061  1449  1653 I PackageManager: Un-granting permission com.google.android.googleapps.permission.GOOGLE_AUTH.cl from package com.android.providers.calendar (protectionLevel=2 flags=0x3088be45)
+01-18 15:18:17.065  1449  1653 I PackageManager: Un-granting permission com.google.android.setupwizard.READ_DEVICE_ORIGIN from package com.google.android.apps.messaging (protectionLevel=18 flags=0x38cbbec5)
+01-18 15:18:17.067  1449  1653 I PackageManager: Un-granting permission android.permission.ACCESS_DOWNLOAD_MANAGER from package com.microsoft.office.officelens (protectionLevel=18 flags=0x30d83e44)
+01-18 15:18:17.069  1449  1653 I PackageManager: Un-granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS from package com.android.vending (protectionLevel=2 flags=0x38cabec5)
+01-18 15:18:17.071  1449  1653 I PackageManager: Un-granting permission android.permission.WRITE_SETTINGS from package com.microsoft.skydrive (protectionLevel=1218 flags=0x30d83e44)
+01-18 15:18:17.071  1449  1653 I PackageManager: Un-granting permission android.permission.REQUEST_INSTALL_PACKAGES from package com.microsoft.skydrive (protectionLevel=66 flags=0x30d83e44)
+01-18 15:18:17.072  1449  1653 I PackageManager: Un-granting permission android.permission.SYSTEM_ALERT_WINDOW from package com.rnunitydemo (protectionLevel=1250 flags=0x3888be46)
+01-18 15:18:17.076  1449  1653 I PackageManager: Un-granting permission android.permission.REQUEST_INSTALL_PACKAGES from package com.instagram.android (protectionLevel=66 flags=0x30c83e64)
+01-18 15:18:17.078  1449  1653 I PackageManager: Un-granting permission com.google.android.providers.gsf.permission.WRITE_GSERVICES from package com.google.android.as (protectionLevel=18 flags=0x30c8be44)
+01-18 15:18:17.078  1449  1653 I PackageManager: Un-granting permission android.permission.REQUEST_INSTALL_PACKAGES from package com.google.android.gm (protectionLevel=66 flags=0x38cbbec5)
+01-18 15:18:17.080  1449  1653 I PackageManager: Un-granting permission android.permission.REQUEST_INSTALL_PACKAGES from package com.moodle.moodlemobile (protectionLevel=66 flags=0x38c8be44)
+01-18 15:18:17.084  1449  1653 I PackageManager: Un-granting permission android.permission.WRITE_SETTINGS from package com.google.android.music (protectionLevel=1218 flags=0x38cbbe64)
+01-18 15:18:17.084  1449  1653 I PackageManager: Un-granting permission android.permission.BIND_JOB_SERVICE from package com.google.android.music (protectionLevel=2 flags=0x38cbbe64)
+01-18 15:18:17.085  1449  1653 I PackageManager: Un-granting permission android.permission.LOCATION_HARDWARE from package com.google.android.apps.wellbeing (protectionLevel=18 flags=0x20cbbec5)
+01-18 15:18:17.085  1449  1653 I PackageManager: Un-granting permission android.permission.WRITE_SECURE_SETTINGS from package com.google.android.dialer (protectionLevel=50 flags=0x20cbbec5)
+01-18 15:18:17.087  1449  1653 I PackageManager: Un-granting permission android.permission.REQUEST_INSTALL_PACKAGES from package com.google.android.apps.nbu.files (protectionLevel=66 flags=0x30c83ec5)
+01-18 15:18:17.089  1449  1653 I PackageManager: Un-granting permission android.permission.REQUEST_INSTALL_PACKAGES from package com.google.android.apps.docs (protectionLevel=66 flags=0x38cbbec5)
+01-18 15:18:17.090  1449  1653 I PackageManager: Un-granting permission android.permission.REQUEST_INSTALL_PACKAGES from package com.oculus.twilight (protectionLevel=66 flags=0x30c83e44)
+01-18 15:18:17.091  1449  1653 I PackageManager: Un-granting permission com.google.android.gm.permission.READ_GMAIL from package com.google.android.contacts (protectionLevel=2 flags=0x30cbbec5)
+01-18 15:18:17.091  1449  1653 I PackageManager: Un-granting permission com.google.android.googleapps.permission.GOOGLE_AUTH from package com.google.android.contacts (protectionLevel=2 flags=0x30cbbec5)
+01-18 15:18:17.092  1449  1653 I PackageManager: Un-granting permission android.permission.INTERACT_ACROSS_USERS from package com.google.android.syncadapters.contacts (protectionLevel=50 flags=0x20883e45)
+01-18 15:18:17.093  1449  1653 I PackageManager: Un-granting permission android.permission.REQUEST_INSTALL_PACKAGES from package com.android.chrome (protectionLevel=66 flags=0xa0cbbec5)
+01-18 15:18:17.094  1449  1653 I PackageManager: Un-granting permission android.permission.CAPTURE_VIDEO_OUTPUT from package com.google.android.gms (protectionLevel=2 flags=0xa0cabec5)
+01-18 15:18:17.095  1449  1653 I PackageManager: Un-granting permission android.permission.MANAGE_DEVICE_ADMINS from package com.google.android.gms (protectionLevel=2 flags=0xa0cabec5)
+01-18 15:18:17.095  1449  1653 I PackageManager: Un-granting permission android.permission.MANAGE_ACTIVITY_STACKS from package com.google.android.gms (protectionLevel=2 flags=0xa0cabec5)
+01-18 15:18:17.095  1449  1653 I PackageManager: Un-granting permission android.permission.CAPTURE_SECURE_VIDEO_OUTPUT from package com.google.android.gms (protectionLevel=2 flags=0xa0cabec5)
+01-18 15:18:17.099  1449  1653 I PackageManager: Un-granting permission com.google.android.googleapps.permission.GOOGLE_AUTH from package com.google.android.videos (protectionLevel=2 flags=0x30dbbe44)
+01-18 15:18:17.101  1449  1653 I PackageManager: Un-granting permission android.permission.WRITE_MEDIA_STORAGE from package com.google.android.apps.photos (protectionLevel=18 flags=0x38d9bec5)
+01-18 15:18:17.102  1449  1653 I PackageManager: Un-granting permission android.permission.WRITE_SETTINGS from package com.glgjing.stark (protectionLevel=1218 flags=0x3088be44)
+01-18 15:18:17.103  1449  1653 I PackageManager: Un-granting permission android.permission.SYSTEM_ALERT_WINDOW from package com.glgjing.stark (protectionLevel=1250 flags=0x3088be44)
+01-18 15:18:17.103  1449  1653 I PackageManager: Un-granting permission android.permission.PACKAGE_USAGE_STATS from package com.glgjing.stark (protectionLevel=114 flags=0x3088be44)
+01-18 15:18:17.106  1449  1653 I PackageManager: Un-granting permission android.permission.PACKAGE_USAGE_STATS from package com.hmdglobal.support (protectionLevel=114 flags=0x30c8bec5)
+01-18 15:18:17.107  1449  1653 I PackageManager: Un-granting permission android.permission.DUMP from package com.google.android.apps.turbo (protectionLevel=50 flags=0x30cbbec5)
+01-18 15:18:17.107  1449  1653 I PackageManager: Un-granting permission android.permission.READ_WALLPAPER_INTERNAL from package com.google.android.apps.wallpaper (protectionLevel=18 flags=0x38cbbec5)
+01-18 15:18:18.244  1449  1653 I PackageManager: [SW3]StatsLog PKG_ADM__ADM__MODIFY, isSystemApp:false
+01-18 15:18:18.290  1449  1653 I ActivityManager: Force stopping com.mit.reality.hack appid=10635 user=0: pkg removed
+01-18 15:18:22.161  1449  8163 W ActivityManager: Permission Denial: Accessing service com.google.android.music/.dial.DialMediaRouteProviderService from pid=3835, uid=10061 that is not exported from uid 10133
+01-18 15:18:23.588  1449  1634 I ActivityManager: Start proc 12353:com.android.bluetooth/1002 for service {com.android.bluetooth/com.android.bluetooth.btservice.AdapterService}
+01-18 15:18:23.589  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.android.bluetooth, app.info = ApplicationInfo{2bc20ed com.android.bluetooth}, app.hostingType = service, getHostingName() = ComponentInfo{com.android.bluetooth/com.android.bluetooth.btservice.AdapterService}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{706b22 12353:com.android.bluetooth/1002}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { act=android.bluetooth.IBluetooth cmp=com.android.bluetooth/.btservice.AdapterService }, CALLER_PACKAGE=android}]
+01-18 15:18:24.192  1449  1615 D ActivityManager: Package [com.mit.reality.hack] have process
+01-18 15:18:24.211  1449  1634 I ActivityManager: Start proc 12410:com.mit.reality.hack/u0a635 for activity {com.mit.reality.hack/com.unity3d.player.UnityPlayerActivity}
+01-18 15:18:24.211  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.mit.reality.hack, app.info = ApplicationInfo{19709e2 com.mit.reality.hack}, app.hostingType = activity, getHostingName() = ComponentInfo{com.mit.reality.hack/com.unity3d.player.UnityPlayerActivity}, getIntentFlag() = 0, getIsPackageRunning() = true, app = ProcessRecord{91e4173 12410:com.mit.reality.hack/u0a635}, getExtraData() = null
+01-18 15:18:24.431 12410 12434 I Unity   : SystemInfo CPU = ARMv7 VFPv3 NEON, Cores = 8, Memory = 2733mb
+01-18 15:18:24.431 12410 12434 I Unity   : SystemInfo ARM big.LITTLE configuration: 4 big (mask: 0xf0), 4 little (mask: 0xf)
+01-18 15:18:24.432 12410 12434 I Unity   : ApplicationInfo com.mit.reality.hack version 1.2.2 build 3974711e-9448-41ae-b5bb-9790f59106cc
+01-18 15:18:24.432 12410 12434 I Unity   : Built from '2019.1/staging' branch, Version '2019.1.14f1 (148b5891095a)', Build type 'Release', Scripting Backend 'mono', CPU 'armeabi-v7a', Stripping 'Disabled'
+01-18 15:18:24.744 12410 12434 D Unity   :  GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_vertex_half_float GL_OES_framebuffer_object GL_OES_rgb8_rgba8 GL_OES_compressed_ETC1_RGB8_texture GL_AMD_compressed_ATC_texture GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_OES_texture_compression_astc GL_OES_texture_npot GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_read_format_bgra GL_OES_texture_3D GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_QCOM_alpha_test GL_OES_depth24 GL_OES_packed_depth_stencil GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_EXT_sRGB GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_EXT_texture_type_2_10_10_10_REV GL_EXT_texture_sRGB_decode GL_EXT_texture_format_sRGB_override GL_OES_element_index_uint GL_EXT_copy_image GL_EXT_geometry_shader GL_EXT_tessellation_shader GL_OES_texture_stencil8 GL_EXT_shader_io_blocks GL_OES_shader_image_atomic GL_OES_sample_variables GL_EXT_texture_b
+01-18 15:18:24.744 12410 12434 D Unity   : order_clamp GL_EXT_EGL_image_external_wrap_modes GL_EXT_multisampled_render_to_texture GL_EXT_multisampled_render_to_texture2 GL_OES_shader_multisample_interpolation GL_EXT_texture_cube_map_array GL_EXT_draw_buffers_indexed GL_EXT_gpu_shader5 GL_EXT_robustness GL_EXT_texture_buffer GL_EXT_shader_framebuffer_fetch GL_ARM_shader_framebuffer_fetch_depth_stencil GL_OES_texture_storage_multisample_2d_array GL_OES_sample_shading GL_OES_get_program_binary GL_EXT_debug_label GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_QCOM_tiled_rendering GL_ANDROID_extension_pack_es31a GL_EXT_primitive_bounding_box GL_OES_standard_derivatives GL_OES_vertex_array_object GL_EXT_disjoint_timer_query GL_KHR_debug GL_EXT_YUV_target GL_EXT_sRGB_write_control GL_EXT_texture_norm16 GL_EXT_discard_framebuffer GL_OES_surfaceless_context GL_OVR_multiview GL_OVR_multiview2 GL_EXT_texture_sRGB_R8 GL_KHR_no_error GL_EXT_debug_marker GL_OES_EGL_image_external_essl3 GL_OVR_multiview_multisampled_render_to_texture GL_E
+01-18 15:18:24.744 12410 12434 D Unity   : XT_buffer_storage GL_EXT_external_buffer GL_EXT_blit_framebuffer_params GL_EXT_clip_cull_distance GL_EXT_protected_textures GL_EXT_shader_non_constant_global_initializers GL_QCOM_texture_foveated GL_QCOM_shader_framebuffer_fetch_noncoherent GL_QCOM_shader_framebuffer_fetch_rate GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_EGL_image_array GL_NV_shader_noperspective_interpolation GL_KHR_robust_buffer_access_behavior GL_EXT_EGL_image_storage GL_EXT_blend_func_extended GL_EXT_clip_control GL_OES_texture_view GL_EXT_fragment_invocation_density GL_QCOM_YUV_texture_gather
+01-18 15:18:25.675 12410 12479 W Unity   : The referenced script (Microsoft.MixedReality.Toolkit.WindowsMixedReality.WindowsMixedRealityCameraSettingsProfile) on this Behaviour is missing!
+01-18 15:18:25.675 12410 12479 W Unity   :  
+01-18 15:18:25.675 12410 12479 W Unity   : (Filename: ./Runtime/Scripting/ManagedReference/SerializableManagedRef.cpp Line: 197)
+01-18 15:18:25.675 12410 12479 W Unity   : 
+01-18 15:18:25.695 12410 12479 W Unity   : The referenced script (Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile) on this Behaviour is missing!
+01-18 15:18:25.695 12410 12479 W Unity   :  
+01-18 15:18:25.695 12410 12479 W Unity   : (Filename: ./Runtime/Scripting/ManagedReference/SerializableManagedRef.cpp Line: 197)
+01-18 15:18:25.695 12410 12479 W Unity   : 
+01-18 15:18:25.729 12410 12479 W Unity   : The referenced script on this Behaviour (Game Object '<null>') is missing!
+01-18 15:18:25.729 12410 12479 W Unity   :  
+01-18 15:18:25.729 12410 12479 W Unity   : (Filename: ./Runtime/Mono/ManagedMonoBehaviourRef.cpp Line: 333)
+01-18 15:18:25.729 12410 12479 W Unity   : 
+01-18 15:18:25.729 12410 12479 E Unity   : A scripted object (probably Microsoft.MixedReality.Toolkit.WindowsMixedReality.WindowsMixedRealityCameraSettingsProfile?) has a different serialization layout when loading. (Read 80 bytes but expected 92 bytes)
+01-18 15:18:25.729 12410 12479 E Unity   : Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+01-18 15:18:25.729 12410 12479 E Unity   :  
+01-18 15:18:25.729 12410 12479 E Unity   : (Filename: ./Runtime/Serialize/SerializedFile.cpp Line: 2012)
+01-18 15:18:25.729 12410 12479 E Unity   : 
+01-18 15:18:25.764 12410 12479 W Unity   : The referenced script on this Behaviour (Game Object '<null>') is missing!
+01-18 15:18:25.764 12410 12479 W Unity   :  
+01-18 15:18:25.764 12410 12479 W Unity   : (Filename: ./Runtime/Mono/ManagedMonoBehaviourRef.cpp Line: 333)
+01-18 15:18:25.764 12410 12479 W Unity   : 
+01-18 15:18:25.764 12410 12479 E Unity   : A scripted object (probably Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile?) has a different serialization layout when loading. (Read 76 bytes but expected 352 bytes)
+01-18 15:18:25.764 12410 12479 E Unity   : Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+01-18 15:18:25.764 12410 12479 E Unity   :  
+01-18 15:18:25.764 12410 12479 E Unity   : (Filename: ./Runtime/Serialize/SerializedFile.cpp Line: 2012)
+01-18 15:18:25.764 12410 12479 E Unity   : 
+01-18 15:18:30.633  1449  2440 I ActivityManager: Process com.android.bluetooth (pid 12353) has died: fore SVC 
+01-18 15:18:30.925 12410 12577 E Unity   : Unable to find Kernel32
+01-18 15:18:32.461 12410 12434 I Unity   : Creating Session
+01-18 15:18:32.461 12410 12434 I Unity   :  
+01-18 15:18:32.461 12410 12434 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 48)
+01-18 15:18:32.461 12410 12434 I Unity   : 
+01-18 15:18:32.683 12410 12434 I Unity   : Starting Session
+01-18 15:18:32.683 12410 12434 I Unity   :  
+01-18 15:18:32.683 12410 12434 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 48)
+01-18 15:18:32.683 12410 12434 I Unity   : 
+01-18 15:18:32.762 12410 12434 I Unity   : Session Ready
+01-18 15:18:32.762 12410 12434 I Unity   :  
+01-18 15:18:32.762 12410 12434 I Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 48)
+01-18 15:18:32.762 12410 12434 I Unity   : 
+01-18 15:18:34.589 12410 12434 E Unity   : Unable to find _burst_generated
+01-18 15:19:15.923  2821  3646 W PackageManager: Failure retrieving resources for com.mit.reality.hack
+01-18 15:19:17.621  1449  1634 I ActivityManager: Start proc 12714:com.android.bluetooth/1002 for service {com.android.bluetooth/com.android.bluetooth.btservice.AdapterService}
+01-18 15:19:17.622  1449  1634 D ActivityManager: handleProcessStartedLocked mDoneFinishBooting && app.pid != 0 ---> notifyProcessStart, app.processName = com.android.bluetooth, app.info = ApplicationInfo{86a4e3a com.android.bluetooth}, app.hostingType = service, getHostingName() = ComponentInfo{com.android.bluetooth/com.android.bluetooth.btservice.AdapterService}, getIntentFlag() = 0, getIsPackageRunning() = false, app = ProcessRecord{3f52aeb 12714:com.android.bluetooth/1002}, getExtraData() = Bundle[{SERVICE_INTENT=Intent { act=android.bluetooth.IBluetooth cmp=com.android.bluetooth/.btservice.AdapterService }, CALLER_PACKAGE=android}]
+01-18 15:19:17.750  1449  2440 I ActivityManager: Process com.mit.reality.hack (pid 12410) has died: cch+5 CEM 
+01-18 15:19:17.770  1449  1615 W ActivityManager: setHasOverlayUi called on unknown pid: 12410
+01-18 15:19:23.173  1449  2440 W ActivityManager: Unable to start service Intent { cmp=com.evenwell.faceplusrecognition/.FacePlusService } U=0: not found
+01-18 15:19:27.017  1449  1615 I ActivityManager: Killing 10203:com.android.providers.calendar/u0a49 (adj 985): empty for 1803s

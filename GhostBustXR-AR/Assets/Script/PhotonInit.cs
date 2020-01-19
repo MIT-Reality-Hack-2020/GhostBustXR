@@ -14,10 +14,26 @@ public class PhotonInit : MonoBehaviourPunCallbacks
 
     public UnityEvent PhotonFailed;
 
+    public UnityEvent AnchorPropertyChanged;
+
     // Start is called before the first frame update
     void Start()
     {
         PhotonNetwork.ConnectUsingSettings();
+    }
+
+    public override void OnPlayerEnteredRoom(Player newPlayer)
+    {
+        if (newPlayer.IsLocal) return;
+    }
+
+    public override void OnRoomPropertiesUpdate(ExitGames.Client.Photon.Hashtable propertiesThatChanged)
+    {
+        base.OnRoomPropertiesUpdate(propertiesThatChanged);
+        if (propertiesThatChanged.ContainsKey(AnchorInit.ANCHOR_ID_PROPERTY))
+        {
+            AnchorPropertyChanged.Invoke();
+        }
     }
 
     public override void OnConnectedToMaster()
@@ -39,14 +55,17 @@ public class PhotonInit : MonoBehaviourPunCallbacks
         PhotonFailed.Invoke();
     }
 
+    public void CreatePlayer()
+    {
+        var halo = PhotonNetwork.Instantiate(PlayPrefab.name, transform.position/*START POSITION*/, Quaternion.identity);
+        halo.transform.SetParent(gameObject.transform);
+        //halo.transform.localPosition = Vector3.zero;
+        halo.transform.localRotation = Quaternion.identity;
+    }
+
     public async override void OnJoinedRoom()
     {
         base.OnJoinedRoom();
-
-        var halo = PhotonNetwork.Instantiate(PlayPrefab.name, Vector3.zero, Quaternion.identity);
-        halo.transform.SetParent(CameraCache.Main.transform);
-        halo.transform.localPosition = Vector3.zero;
-        halo.transform.localRotation = Quaternion.identity;
         ConnectedToPhoton.Invoke();
     }
 }
