@@ -11,7 +11,7 @@ public class AttachObjects : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        ToAttachHead.TransformToMove = GameObject.Find("FollowHead").transform;
+        ToAttachHead.TransformToMove = GameObject.Find("VRCamera").transform;
         transform.parent = ToAttachHead.TransformToMove;
         transform.localPosition = Vector3.zero;
         ToAttachFlashLight.TransformToMove = GameObject.Find("Flashlight").transform;
