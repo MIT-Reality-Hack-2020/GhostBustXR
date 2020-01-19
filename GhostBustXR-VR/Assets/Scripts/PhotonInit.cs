@@ -6,7 +6,8 @@ using UnityEngine;
 
 public class PhotonInit : MonoBehaviourPunCallbacks
 {
-    public GameObject PlayPrefab;
+    public GameObject PlayPrefabAR;
+    public GameObject PlayPrefabVR;
 
     // Start is called before the first frame update
     void Start()
@@ -38,10 +39,10 @@ public class PhotonInit : MonoBehaviourPunCallbacks
     {
         base.OnJoinedRoom();
 
-        var halo = PhotonNetwork.Instantiate(PlayPrefab.name, Vector3.zero, Quaternion.identity);
-        //var halo = PhotonNetwork.Instantiate(this.haloPrefab.name, CameraCache.Main.transform.position, CameraCache.Main.transform.rotation);
-        halo.transform.SetParent(Camera.main.transform);
-        halo.transform.localPosition = Vector3.zero;
-        halo.transform.localRotation = Quaternion.identity;
+        //var halo = PhotonNetwork.Instantiate(PlayPrefabAR.name, Vector3.zero, Quaternion.identity);
+        ////var halo = PhotonNetwork.Instantiate(this.haloPrefab.name, CameraCache.Main.transform.position, CameraCache.Main.transform.rotation);
+        //halo.transform.SetParent(Camera.main.transform);
+        //halo.transform.localPosition = Vector3.zero;
+        //halo.transform.localRotation = Quaternion.identity;
     }
 }
