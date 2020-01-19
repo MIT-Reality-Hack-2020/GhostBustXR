@@ -21,7 +21,10 @@ public class AnchorInit : MonoBehaviour
     private CloudSpatialAnchorWatcher _watcher;
     public ProgressEvent AnchorProgressUpdated;
     public UnityEvent AnchorSaved;
+    public UnityEvent AnchorFound;
+    public UnityEvent AnchorLoading;
     private bool _anchorReceived = false;
+    private string _myAnchorID = String.Empty;
 
     // Start is called before the first frame update
     void Start()
@@ -54,6 +57,7 @@ public class AnchorInit : MonoBehaviour
                     cna = gameObject.AddComponent<CloudNativeAnchor>();
                 }
                 cna.CloudToNative(anchor);
+                AnchorFound.Invoke();
             });
         }
         else if (args.Status == LocateAnchorStatus.NotLocatedAnchorDoesNotExist || args.Status == LocateAnchorStatus.NotLocated)
@@ -124,6 +128,7 @@ public class AnchorInit : MonoBehaviour
             var success = cloudAnchor != null;
             if (success)
             {
+                _myAnchorID = cloudAnchor.Identifier;
                 var props = new Hashtable()
                     {
                         { ANCHOR_ID_PROPERTY, cloudAnchor.Identifier }
@@ -151,6 +156,8 @@ public class AnchorInit : MonoBehaviour
     {
         if (PhotonNetwork.CurrentRoom.CustomProperties.TryGetValue(ANCHOR_ID_PROPERTY, out var keyValue))
         {
+            if (String.Equals(keyValue, _myAnchorID)) return;
+            AnchorLoading.Invoke();
             var anchorLocateCriteria = new AnchorLocateCriteria
             {
                 Identifiers = new[] { (string)keyValue }
